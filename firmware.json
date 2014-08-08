@@ -1,0 +1,186 @@
+{
+	"Firmware Utilities":
+	{
+		"Firmware Update Software":
+		{
+			"OSX: Livid Firmware Update":
+			{
+				"version": "1.13",
+				"comment": "Mac OS X 10.6+",
+				"link": "http://www.lividinstruments.com/dl/firmware/Livid_Firmware_Update-1.13.app.zip"
+			},
+			"Windows: HID Bootloader": 
+			{
+				"version": "2.60",
+				"comment": "Windows XP,7,8",
+				"link": "http://www.lividinstruments.com/dl/firmware/HIDBootLoader_26_win.zip"
+			}
+		}
+	},
+
+	"Firmware Images":
+	{
+		"Alias 8":
+		{
+			"current": 
+			{
+				"version": "1.55",
+				"comment": "",
+				"link": "http://www.lividinstruments.com/dl/firmware/alias_155.hex.zip"
+			},
+			"aliased": 
+			{
+				"version": "1.54a",
+				"comment": "Use Aliased firmware on one of the controllers, if you intend to use two Alias8's on a single computer.",
+				"link": "http://www.lividinstruments.com/dl/firmware/alias_154_aliasA.hex.zip"
+			}
+		},
+
+		"Brain Jr":
+		{
+			"current": 
+			{
+				"version": "2.13",
+				"comment": "",
+				"link": "http://www.lividinstruments.com/dl/firmware/brainjr_213.hex.zip"
+			},
+			"aliased": 
+			{
+				"version": "2.06a",
+				"comment": "Use Aliased firmware on one of the controllers, if you intend to use two or more Brain Jr's on a single computer.",
+				"link": "http://www.lividinstruments.com/dl/firmware/brainjr_206_aliasPack.zip"
+			}
+		},
+
+		"Brain v2":
+		{
+			"current": 
+			{
+				"version": "1.89",
+				"comment": "",
+				"link": "http://www.lividinstruments.com/dl/firmware/brainv2_189.hex.zip"
+			},
+			"aliased": 
+			{
+				"version": "1.89a",
+				"comment": "Use Aliased firmware on one of the controllers, if you intend to use two Alias8's on a single computer.",
+				"link": "http://www.lividinstruments.com/dl/firmware/brainv2_189_aliasA.hex.zip"
+			}
+		},
+
+		"Cntrl:R":
+		{
+			"current": 
+			{
+				"version": "1.11",
+				"comment": "",
+				"link": "http://www.lividinstruments.com/dl/firmware/cntrlr_111.hex.zip"
+			}
+		},
+
+		"Code":
+		{
+			"current": 
+			{
+				"version": "2.22",
+				"comment": "",
+				"link": "http://www.lividinstruments.com/dl/firmware/code_222.hex.zip"
+			},
+			"aliased": 
+			{
+				"version": "2.22b",
+				"comment": "Use Aliased firmware on one of the controllers, if you intend to use two Code's on a single computer.",
+				"link": "http://www.lividinstruments.com/dl/firmware/code_222_aliasb.hex.zip"
+			},
+			"historical (silver encoders)": 
+			{
+				"version": "1.05",
+				"comment": "The 100 Series of the Code firmware does not support banking, but does allow individual channel output for each Control. It is provided for legacy support. This firmware is not supported by the Livid Web Editor.",
+				"link": "http://www.lividinstruments.com/dl/firmware/code_105_SILVER.hex.zip"
+			},
+			"historical (black encoders)": 
+			{
+				"version": "1.05",
+				"comment": "The 100 Series of the Code firmware does not support banking, but does allow individual channel output for each Control. It is provided for legacy support. This firmware is not supported by the Livid Web Editor",
+				"link": "http://www.lividinstruments.com/dl/firmware/code_105_BLACK.hex.zip"
+			}
+		},
+
+		"OhmRGB":
+		{
+			"current": 
+			{
+				"version": "0.63",
+				"comment": "",
+				"link": ""
+			},
+			"alternate": 
+			{
+				"version": "0.63br",
+				"comment": "There are some OhmRGB models that have a different RGB LED module, resulting in a problem with velocity-to-color maps. You can find out if you need the alternate version of the firmware by downloading the following hyperlink: http://lividinstruments.com/dl/OhmRGBColorGrid.maxpat.zip",
+				"link": ""
+			},
+			"aliased": 
+			{
+				"version": "0.63a",
+				"comment": "Use Aliased firmware on one of the controllers, if you intend to use two OhmRGB's on a single computer.",
+				"link": "http://www.lividinstruments.com/dl/firmware/ohmRGB_063_alias.hex.zip"
+			}
+		},
+
+		"Ohm64":
+		{
+			"current": 
+			{
+				"version": "2.23",
+				"comment": "For metal bodied Ohm64's that support the Livid Bootloader.",
+				"link": "http://www.lividinstruments.com/dl/firmware/ohm64_223.hex.zip"
+			},
+			"historical": 
+			{
+				"version": "1.23",
+				"comment": "For wood bodied Ohm64's that support the Livid Bootloader.",
+				"link": "http://www.lividinstruments.com/dl/firmware/ohm64_123.hex.zip"
+			}
+	
+		},
+
+		"Base v1":
+		{
+			"current": 
+			{
+				"version": "1.52",
+				"comment": "",
+				"link": "http://www.lividinstruments.com/dl/firmware/base_152_rgb1.hex.zip"
+			},
+			"alternate": 
+			{
+				"version": "1.52br",
+				"comment": "Early Base controllers were equipped with different RGB LEDs. If your Red and Blue LEDs are reversed with the current firmware, use this alternate firmware.",
+				"link": "http://www.lividinstruments.com/dl/firmware/base_152_rgb1.hex.zip"
+			}
+		},
+
+		"Generic Template":
+		{
+			"current": 
+			{
+				"version": "x.xx",
+				"comment": "",
+				"link": ""
+			},
+			"aliased": 
+			{
+				"version": "x.xx",
+				"comment": "Use Aliased firmware on one of the controllers, if you intend to use two Base's on a single computer.",
+				"link": ""
+			},
+			"historical": 
+			{
+				"version": "x.xx",
+				"comment": "",
+				"link": ""
+			}
+		}
+	}
+}

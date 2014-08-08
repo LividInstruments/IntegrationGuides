@@ -1,0 +1,131 @@
+{
+	"products": {
+		"0": {
+			"name": "Ableton Live 9",
+			"picon": "content/images/icons/live_icon.png",
+			"ptitle": "Ableton Live and Alias8",
+			"pid": "abletonlive9",
+			"ptext": "With 15 easily accessed channels, the diminutive footprint of the Alias8 hides the fact that there are 14 other controllers waiting in the wings, behind the one you are using. The Alias8 is MIDI Learn's best friend, putting a massive amount of controls for effects, mixing, and anything else you can map with Live's MIDI learn. The simple Remote Script makes it easy to automatically latch the Alias8 to all your tracks for mixing duties.",
+			"ititle": "Ableton Live 9 + Alias8 script installer:",
+			"ilinkmac": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.dmg",
+			"ilinkwin": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.exe",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "The Alias8 Remote Script maps the controls on channel one to simple mixing parameters. Change the channel to access up to 13 more user-mapped modes for MIDI Learn.",
+					"setname": "Livid_Alias8 Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Alias8_Ableton_Live_Remote_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/alias8_live9.jpg",
+					"cap": "Alias8 controlling Live",
+					"mapthumb": "content/images/maps/alias8_live9.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"1": {
+			"name": "Ableton Live 8",
+			"picon": "content/images/icons/live8_icon.png",
+			"ptitle": "Ableton Live 8 and Alias8",
+			"pid": "abletonlive8",
+			"ptext": "With 15 easily accessed channels, the diminutive footprint of the Alias8 hides the fact that there are 14 other controllers waiting in the wings, behind the one you are using. The Alias8 is MIDI Learn's best friend, putting a massive amount of controls for effects, mixing, and anything else you can map with Live's MIDI learn. The simple Remote Script makes it easy to automatically latch the Alias8 to all your tracks for mixing duties.",
+			"ititle": "Ableton Live 8 + Alias8 script installer:",
+			"ilinkmac": "http://lividinstruments.com/dl/Alias8_LiveRemoteScript.zip",
+			"ilinkwin": "http://lividinstruments.com/dl/Alias8_LiveRemoteScript.zip",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "The Alias8 Remote Script maps the controls on channel one to simple mixing parameters. Change the channel to access up to 13 more user-mapped modes for MIDI Learn.",
+					"setname": "Livid_Alias8 Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Alias8_Ableton_Live_Remote_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/alias8_live8.jpg",
+					"cap": "Alias8 controlling Live",
+					"mapthumb": "content/images/maps/alias8_live9.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"2": {
+			"name": "Bitwig Studio",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "Bitwig Studio and Alias 8",
+			"pid": "bitwigstudio",
+			"ptext": "Bitwig Studio is a modern DAW, designed for composition, sketching, and live performance. Our Control Surface Script for Bitwig Studio takes full advantage of their open scripting API to create several different mix styles. There's also an old-school step-sequencer for hands-on synth fun.  Bitwig Studio comes with the Alias8 script embedded, however, you may need to download the latest from GitHub if there is a script update before there is a new release of Bitwig Studio.",
+			"ititle": "Software Title + Livid Controller Content installer:",
+			"ilinkmac": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Control Surface Script",
+					"text": "Using the channel selector encoder on the Alias8, you can quickly change the mappings to different parts of Bitwig Studio. Mixing, sequencing, effects control, and an interactive step sequencer, based on classic synth designs, are all available at your finger tips.",
+					"setname": "Alias8 Control Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Alias8_Bitwig_Control_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/alias8_bitwigscript.jpg",
+					"cap": "Alias8 mapped to bitwig studio",
+					"mapthumb": "content/images/maps/alias8_bitwigscript.png",
+					"mapcap": "example map - see wiki for more details"
+				}
+			}
+		},
+		"3": {
+			"name": "Propellerhead Reason",
+			"picon": "content/images/icons/reason_icon.png",
+			"ptitle": "Propellerhead Reason and Alias8",
+			"pid": "propellerheadreason",
+			"ptext": "The Alias8 makes it easy to access controls for your favorite synths and effects in Reason. You can change what you are controlling, or just use it as a dedicated editor for your favorite synth. It also provides quick access to simple mixing functions in Reason's mixer to get your mix just right. Even more exciting is native support for PEFF's Alias8 CV Rack Extension which turns the Alias8 into a unique, customizable hardware control for CV networks in your Rack. Although the Alias8 Reason Remote script is automatically bundled with Reason 7, you may need to download and install the scripts from github to update.",
+			"ititle": "Reason + Alias8 github link:",
+			"ilinkmac": "https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "The Alias8 is mapped to every device in Reason, giving you flexible or dedicated control over effects and synths. Several variations for more complex devices allow you to control oscillators, filters, and modulation. ",
+					"setname": "Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Alias8_Reason_Remote_Script",
+					"youtube": "slqrzKOLODY",
+					"leftthumb": "content/images/screencaps/alias8_reasonscript.jpg",
+					"cap": "Controlling Reason with the Alias 8",
+					"mapthumb": "content/images/maps/alias8_reasonscript.png",
+					"mapcap": "example map - see wiki for more details"
+				},
+				"1": {
+					"title": "PEFF Alias8CV",
+					"text": "One of the most unique Rack Extensions in the Propellerhead RE library, the Alias8CV is a patchable interface for all CV controls that links directly to the Alias8 controls. By linking different synths, samplers, and effects with CV, you can create incredible interactive devices and compositions and record both the automation and audio output for continued refinement. ",
+					"setname": "Alias8CV Rack Extension",
+					"manual": "https://shop.propellerheads.se/product/alias8-cv-controller/",
+					"youtube": "m5_ldbMvTkw",
+					"leftthumb": "content/images/screencaps/alias8cv_reason.jpg",
+					"cap": "Alias8CV in action",
+					"mapthumb": "content/images/screencaps/alias8_cv_panels.jpg",
+					"mapcap": "Front and back panels of Alias8CV"
+				}
+			}
+		},
+		"4": {
+			"name": "MIDI Settings Editor",
+			"picon": "content/images/icons/editor_icon.png",
+			"ptitle": "Livid Editor",
+			"pid": "editor",
+			"ptext": "The MIDI output and input settings for the Alias8 can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.",
+			"ititle": "Livid Online Editor",
+			"ilinkmac": "http://www.lividserver.com/editor",
+			"ilinkwin": "",
+			"linktextalt": " Link",
+			"examples": {
+				"0": {
+					"title": "Customizing your Settings.",
+					"text": "Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the Alias8, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Online_Editor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/editor_alias8.png",
+					"cap": "Alias8 Editor",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		}
+	}
+}

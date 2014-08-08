@@ -1,0 +1,187 @@
+{
+	"products": {
+		"0": {
+			"name": "Ableton Live 9",
+			"picon": "content/images/icons/live_icon.png",
+			"ptitle": "Ableton Live and Code",
+			"pid": "abletonlive9",
+			"ptext": "Thirty-two digital encoders means an incredible amount of adaptable, continuous control for synths, tracks, and effects. Our Remote scripts for Live give you a wide variety of control possibilities with your Livid Code.",
+			"ititle": "Ableton Live 9 + Code script installer:",
+			"ilinkmac": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.dmg",
+			"ilinkwin": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.exe",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "The Code Remote script is a single page control for mixing, launching clips, and controlling the current device.",
+					"setname": "Livid_Code Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Code_Ableton_Live_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Code_live9.jpg",
+					"cap": "Code controlling Live",
+					"mapthumb": "content/images/maps/Code_live.png",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Code+Griid Remote Script",
+					"text": "Designed to work seamlessly with Liine's <a href='https://liine.net/en/legacy-products/griid/'>Griid</a> app for iOS, this Live Control Surface script combines the best of an iPad with the best of hardware. Use the iPad for display and clip launching, use the Code for continuous control. If you don't have the Griid app, you can use the encoder buttons to launch clips.",
+					"setname": "Livid_CodeGriid Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Code%2BGriid_Ableton_Live_Remote_Script",
+					"youtube": "YLvrfzV0ku4",
+					"leftthumb": "content/images/screencaps/Code_live9_griid.jpg",
+					"cap": "Code controlling Live",
+					"mapthumb": "content/images/maps/code_griid.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"1": {
+			"name": "Ableton Live 8",
+			"picon": "content/images/icons/live8_icon.png",
+			"ptitle": "Ableton Live 8 and Code",
+			"pid": "abletonlive8",
+			"ptext": "Thirty-two digital encoders means an incredible amount of adaptable, continuous control for synths, tracks, and effects. Our Remote scripts for Live give you a wide variety of control possibilities with your Livid Code.",
+			"ititle": "Ableton Live 8 + Code script files:",
+			"ilinkmac": "http://lividinstruments.com/dl/LividCode_Live8.zip",
+			"ilinkwin": "http://lividinstruments.com/dl/LividCode_Live8.zip",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "The Code Remote script is a single page control for mixing, launching clips, and controlling the current device.",
+					"setname": "Livid_Code Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Code_Ableton_Live_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Code_live8_basic.jpg",
+					"cap": "Code controlling Live",
+					"mapthumb": "content/images/maps/Code_live.png",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Code+Griid Remote Script",
+					"text": "Designed to work seamlessly with Liine's <a href='https://liine.net/en/legacy-products/griid/'>Griid</a> app for iOS, this Live Control Surface script combines the best of an iPad with the best of hardware. Use the iPad for display and clip launching, use the Code for continuous control. If you don't have the Griid app, you can use the encoder buttons to launch clips.",
+					"setname": "Livid_CodeGriid Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Code%2BGriid_Ableton_Live_Remote_Script",
+					"youtube": "YLvrfzV0ku4",
+					"leftthumb": "content/images/screencaps/Code_griid_live8.jpg",
+					"cap": "Code controlling Live",
+					"mapthumb": "content/images/maps/code_griid.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"2": {
+			"name": "Bitwig Studio",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "Bitwig Studio and Code",
+			"pid": "bitwigstudio",
+			"ptext": "Taking full advantage of Bitwig's advanced scripting engine, the Code is easily mapped to different parts of the program: clip launching, mixing, tweaking synths, adjusting effects, recording clips, and even step-sequencing midi notes. With intuitive use of the encoder, and smart mappings of the generous controls, the compact Code controller becomes a go-to utility for a variety of music-making tasks.",
+			"ititle": "Bitwig + Livid Controller Content installer:",
+			"ilinkmac": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Control Surface Script",
+					"text": "The Code Control Script attempts to access as many different functions in Bitwig as possible, while keeping tasks focused and available as needed, optimized for the unique layout of the Code. There are several modes: Mix, Sends, Device, and Classical Sequencer. A shift button offers momentary access to special functions.",
+					"setname": "Code Control Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Code_Bitwig_Control_Script",
+					"youtube": "pda1w8XYWpY",
+					"leftthumb": "content/images/screencaps/Code_BW.jpg",
+					"cap": "Code mapped to Bitwig Studio",
+					"mapthumb": "content/images/maps/code_bitwig_map.png",
+					"mapcap": "example map - see wiki for more details"
+				}
+			}
+		},
+		"3": {
+			"name": "Propellerhead Reason",
+			"picon": "content/images/icons/reason_icon.png",
+			"ptitle": "Propellerhead Reason and Code",
+			"pid": "propellerheadreason",
+			"ptext": "The Code makes it easy to access controls for your favorite synths and effects in Reason. You can change what you are controlling, or just use it as a dedicated editor for your favorite synth. It also provides control over most of Reason's mixing console, for hands-on mixing of levels, compressors, eq, and more. Although the Code Reason Remote script is automatically bundled with Reason 7, you may need to download and install the scripts from github to update.",
+			"ititle": "Reason + Code github link:",
+			"ilinkmac": "https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "The Code is mapped to every device in Reason, giving you flexible or dedicated control over effects and synths. Several variations for more complex devices allow you to control oscillators, filters, and modulation. ",
+					"setname": "Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Code_with_Reason",
+					"youtube": "sDc2uT5lgJk",
+					"leftthumb": "content/images/screencaps/Code_reason.jpg",
+					"cap": "Controlling Reason with the Code",
+					"mapthumb": "content/images/maps/Code_Reason_MS_EQ.gif",
+					"mapcap": "example map - see wiki for more details"
+				}
+			}
+		},
+		"4": {
+			"name": "Cycling'74 Max",
+			"picon": "content/images/icons/max_icon.png",
+			"ptitle": "Cycling '74 Max for Live and Code",
+			"pid": "cycling74max",
+			"ptext": "Cycling 74's Max for Live makes Live completely customizable. With our simple Max for Live example and Remote Script, we've made it easy for you to build custom instruments and integrate the Code into existing Max for Live devices. The Code can automatically map to devices, as well as select different devices from the Code, making a dynamic, modular system in Max for Live. There's also a comprehensive tutorial on integrating the Code with standard Max.",
+			"ititle": "Livid Max github link:",
+			"ilinkmac": "https://github.com/LividInstruments/Max/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Max/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Code Device Max for Live device",
+					"text": "The Remote Script is included in the Live 9 remote script installer. Download the device from our GitHub archive. You'll need to make sure you have all the files in your Live User Library - just drag the archive to your Library in the Max MIDI Effect folder. ",
+					"setname": "Code DeviceExample.amxd Max for Live device",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Code_m4l.jpg",
+					"cap": "Controlling Max for Live with the Code",
+					"mapthumb": "",
+					"mapcap": " "
+				},
+				"1": {
+					"title": "Working With Hardware: The Livid Code",
+					"text": "We joined up with Cycling 74 to present several approaches and designs for integrating the Livid Code (or any MIDI Controller) in Max. These all focused on different forms of sequencers and synthesizers for an amazing, comprehensive look at controllers and Max. The full series is available on <a href='http://bit.ly/1pUi20z'>Cycling 74's website</a>, and features patches from Darwin Grosse, Peter Nyboer, and Stretta.",
+					"setname": "",
+					"manual": "http://bit.ly/1pUi20z",
+					"youtube": "3IZVEjYeQz4",
+					"leftthumb": "content/images/screencaps/Code_MaxClock.png",
+					"cap": "Starting a sequencer in Max",
+					"mapthumb": "",
+					"mapcap": " "
+				},
+				"2": {
+					"title": "Code Step",
+					"text": "A simple step sequencer that offers multi-track MIDI step sequencing for controlling software and hardware synths..",
+					"setname": "CodeSeq.maxpat",
+					"manual": "http://lividinstruments.com/news/the-evolution-continues-code-and-reason-step-sequencing/",
+					"youtube": "zuQ8et6FR1M",
+					"leftthumb": "content/images/screencaps/Code_max_codestep.png",
+					"cap": "Starting a sequencer in Max",
+					"mapthumb": "",
+					"mapcap": " "
+				}
+			}
+		},
+		"5": {
+			"name": "MIDI Settings Editor",
+			"picon": "content/images/icons/editor_icon.png",
+			"ptitle": "Livid Editor",
+			"pid": "editor",
+			"ptext": "The MIDI output and input settings for the Code can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.",
+			"ititle": "Livid Online Editor",
+			"ilinkmac": "http://www.lividserver.com/editor",
+			"ilinkwin": "",
+			"linktextalt": " Link",
+			"examples": {
+				"0": {
+					"title": "Customizing your Settings.",
+					"text": "Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the Code, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Online_Editor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/editor_Code.png",
+					"cap": "Code Editor",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		}
+	}
+}

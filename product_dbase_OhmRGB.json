@@ -1,0 +1,384 @@
+{
+	"products" : {
+	  "0": {
+			"name": "Ableton Live 9",
+			"picon": "content/images/icons/live_icon.png",
+			"ptitle": "Ableton Live and OhmRGB",
+			"pid": "abletonlive9",
+			"ptext": "The OhmRGB's huge button grid and expanse of high quality controls make it a favorite for live performance and Ableton Live. Our Remote Script for the OhmRGB is one of the early innovators in multi-mode control surface scripting for Live. With the ability to quickly change from mixing tracks, DJing, or playing instruments and drums, or using the Steppr step sequences, the OhmModes script makes working in Live incredibly productive and fun.",
+			"ititle": "Ableton Live 9 + OhmRGB",
+			"ilinkmac": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.dmg",
+			"ilinkwin": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.exe",
+			"examples": {
+				"0": {
+					"title": "OhmModes Remote Script",
+					"text": "The OhmModes Remote Script provides 4 different modes of working with Ableton Live: Mixing, DJing, Playing, and Max For Live Sequencers. Drop in and out of these modes with ease and have complete creative control of your set with one of the greatest ever MIDI controllers.",
+					"setname": "Livid_OhmModes Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Ohm_Modes_Ableton_Live_Remote_Script",
+					"youtube": "PH-A4-DzDME",
+					"leftthumb": "content/images/screencaps/Ohm_live9.jpg",
+					"cap": "OhmRGB controlling Live",
+					"mapthumb": "content/images/maps/ohmrgb_live_map.jpg",
+					"mapcap": "mapping example - see wiki for complete details"
+				},
+				"1": {
+					"title": "Max for Live Stepprs",
+					"text": "These three unique Max for Live devices offer ideal integration between Max for Live and your Ableton Live set. With the ability to seamlessly jump from mixing clips to direct control over different step sequencers, no controller has ever been released with so much flexibility and function. <a href='http://www.lividinstruments.com/dl/LividOhmStepp-rSampleProject.zip'>Get the Max for Live devices here.</a>",
+					"setname": "Filename",
+					"manual": "http://wiki.lividinstruments.com/wiki/Ohm_Modes_Ableton_Live_Remote_Script#4._Modules",
+					"youtube": "https://www.youtube.com/watch?v=EQrpOKe7rQk",
+					"leftthumb": "content/images/screencaps/ohmrgb_stepprs.jpg",
+					"cap": "Ohm Steppr Max for Live devices",
+					"mapthumb": "content/images/maps/ohmrgb_stepprs.jpg",
+					"mapcap": "map"
+				}
+			}
+		},
+		"1": {
+			"name": "Ableton Live 8",
+			"picon": "content/images/icons/live8_icon.png",
+			"ptitle": "Ableton Live 8 and OhmRGB",
+			"pid": "abletonlive8",
+			"ptext": "The OhmRGB's huge button grid and expanse of high quality controls make it a favorite for live performance and Ableton Live. Our Remote Script for the OhmRGB is one of the early innovators in multi-mode control surface scripting for Live. With the ability to quickly change from mixing tracks, DJing, or playing instruments and drums, or using the Steppr step sequences, the OhmModes script makes working in Live incredibly productive and fun.",
+			"ititle": "Ableton Live 8 + OhmRGB",
+			"ilinkmac": "http://lividinstruments.com/dl/Livid_OhmModes2_LiveRemoteScript.zip",
+			"ilinkwin": "http://lividinstruments.com/dl/Livid_OhmModes2_LiveRemoteScript.zip",
+			"examples": {
+				"0": {
+					"title": "OhmModes Remote Script",
+					"text": "The OhmModes Remote Script provides 4 different modes of working with Ableton Live: Mixing, DJing, Playing, and Max For Live Sequencers. Drop in and out of these modes with ease and have complete creative control of your set with one of the greatest ever MIDI controllers.",
+					"setname": "Livid_OhmModes Remote Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Ohm_Modes_Ableton_Live_Remote_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Ohm_live8.jpg",
+					"cap": "OhmRGB controlling Live",
+					"mapthumb": "content/images/maps/ohmrgb_live_map.jpg",
+					"mapcap": "mapping example - see wiki for complete details"
+				},
+				"1": {
+					"title": "Max for Live Stepprs",
+					"text": "These three unique Max for Live devices offer ideal integration between Max for Live and your Ableton Live set. With the ability to seamlessly jump from mixing clips to direct control over different step sequencers, no controller has ever been released with so much flexibility and function. <a href='http://www.lividinstruments.com/dl/LividOhmStepp-rSampleProject.zip'>Get the Max for Live devices here.</a>",
+					"setname": "Filename",
+					"manual": "http://wiki.lividinstruments.com/wiki/Ohm_Modes_Ableton_Live_Remote_Script#4._Modules",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_stepprs.jpg",
+					"cap": "Ohm Steppr Max for Live devices",
+					"mapthumb": "content/images/maps/ohmrgb_stepprs.jpg",
+					"mapcap": "map"
+				}
+			}
+		},
+		"2": {
+			"name": "Bitwig Studio",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "Bitwig Studio and OhmRGB",
+			"pid": "bitwig",
+			"ptext": "Bitwig Studio is a unique environment for sketching, composing, and mixing tracks on your computer. With the OhmRGB's huge number of buttons and generous number of pots, it's ready to mix and tweak all your favorite clips and sounds. With a natively supported Seqeuncer, you can quickly add new clips and build up your songs.",
+			"ititle": "Bitwig Studio + OhmRGB",
+			"ilinkmac": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Bitwig Control Surface Script",
+					"text": "There are two modes that give you full control over Bitwig with the OhmRGB: Mix and Sequence. With additional shifted functions, your entire DAW is at your fingertips, and you'll be rocking tracks as fast as you can think.",
+					"setname": "OhmRGB Control Surface Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Ohm_Bitwig_Control_Script",
+					"youtube": "Ua1X8Wa_nTc",
+					"leftthumb": "content/images/screencaps/ohmrgb_bitwig_script.jpg",
+					"cap": "OhmRGB controlling Live",
+					"mapthumb": "content/images/maps/Bitwig_Ohm_seqmode.jpg",
+					"mapcap": "mapping example - see wiki for complete details"
+				}
+			}
+		},
+		"3": {
+			"name": "Cycling '74 Max and Max for Live",
+			"picon": "content/images/icons/max_icon.png",
+			"ptitle": "Max and OhmRGB",
+			"pid": "cycling74max",
+			"ptext": "Max and Max for Live are fantastic additions to the OhmRGB for building instruments, control schemes, monome emulators, and more. Our OhmModes Live Script (see above) includes the ability to run special step sequencer devices that run as easily accessed modules. There's also several utilities and patches to help you get more out of your OhmRGB.",
+			"ititle": "Cycling 74 Max and OhmRGB github link:",
+			"ilinkmac": "https://github.com/LividInstruments/Max/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Max/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "SoftMap",
+					"text": "The SoftMap remaps OhmRGB controls to output on the MIDI Channel of your choice. While the OhmRGB controls can be programmed to output any Note or CC number, the output is restricted to one channel. This was originally designed to make the OhmRGB friendly to an Elektron Octarack, which required faders to send on different channels.",
+					"setname": "softMap.maxpat",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/OhmRGB_softMap.png",
+					"cap": "OhmRGB softMap patch",
+					"mapthumb": "",
+					"mapcap": ""
+				},
+			"1": {
+					"title": "monomeBridge",
+					"text": "The monomeBridge converts the OhmRGB and Ohm64 grid into a monome for running many of the popular <a href='http://monome.org'>monome applications</a>. This converts the MIDI from the Ohm into OSC for monome apps, and converts OSC from monome apps to MIDI for the Ohm's LEDs. Ripe for modification!",
+					"setname": "monomeBridge.maxpat",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Ohmrgb_monomebridge.png",
+					"cap": "OhmRGB monomeBridge",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"4": {
+			"name": "Native Instruments Traktor",
+			"picon": "content/images/icons/traktor_icon.png",
+			"ptitle": "Traktor and OhmRGB",
+			"pid": "nitraktor",
+			"ptext": "A huge grid of buttons and plenty of knobs and sliders for effects and EQ, the OhmRGB is an ideal controller to map out custom control of your DJ set in Traktor. We have several different examples for you to jump right in and start mixing, or modify for your own needs.",
+			"ititle": "NI Traktor + Livid Controller Content installer:",
+			"ilinkmac": "",
+			"ilinkwin": "",
+			"examples": {
+				"0": {
+					"title": "Total Control OhmRGB Traktor map",
+					"text": "The Ohm RGB control map for Traktor provides two modes. The first is designed for mixing four track decks, the second is designed for controlling effects and two remix decks. <a href='http://lividinstruments.com/dl/LividOhmRGB_Traktor_TC.zip'>Download the .tsi file from here</a>",
+					"setname": "OhmRGB Total Control.tsi",
+					"manual": "http://wiki.lividinstruments.com/wiki/OhmRGB_Traktor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_traktor_tc.jpg",
+					"cap": "OhmRGB Total Control of Traktor",
+					"mapthumb": "content/images/maps/ohmrgb_traktor_tc.jpg",
+					"mapcap": "map example - see wiki for complete details."
+				},
+				"1": {
+					"title": "LeoLux Map at DJ Techtools",
+					"text": "Focusing on the Remix Decks in Traktor, this map gives you all the control you need to break things up and break it down. Available from super user <a href='https://maps.djtechtools.com/mappings/2166'>LeoLux at the DJ Tech Tools site.</a>",
+					"setname": "OhmRGB and Traktor",
+					"manual": "https://maps.djtechtools.com/mappings/2166",
+					"youtube": "",
+					"leftthumb": "content/images/maps/ohmrgb_traktor_leolux.jpg",
+					"cap": "Traktor and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				},
+				"2": {
+					"title": "Basic OhmRGB Traktor Map",
+					"text": "Four decks, eq, sample slots, and pretty much everything you need for hands-on control of Traktor with the OhmRGB <a href='http://lividinstruments.com/dl/OhmRGB_traktor.tsi.zip'>Download the .tsi file here</a>",
+					"setname": "OhmRGB_traktor.tsi",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/maps/ohmrgb_traktor_basic.jpg",
+					"cap": "Basic Map for Traktor and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"5": {
+			"name": "Bitwig Studio",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "Bitwig Studio and OhmRGB",
+			"pid": "bitwig",
+			"ptext": "Bitwig Studio is a unique environment for sketching, composing, and mixing tracks on your computer. With the OhmRGB's huge number of buttons and generous number of pots, it's ready to mix and tweak all your favorite clips and sounds. With a natively supported Seqeuncer, you can quickly add new clips and build up your songs.",
+			"ititle": "Bitwig Studio + OhmRGB",
+			"ilinkmac": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Bitwig Control Surface Script",
+					"text": "There are two modes that give you full control over Bitwig with the OhmRGB: Mix and Sequence. With additional shifted functions, your entire DAW is at your fingertips, and you'll be rocking tracks as fast as you can think.",
+					"setname": "OhmRGB Control Surface Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/Ohm_Bitwig_Control_Script",
+					"youtube": "Ua1X8Wa_nTc",
+					"leftthumb": "content/images/screencaps/ohmrgb_bitwig_script.jpg",
+					"cap": "OhmRGB controlling Live",
+					"mapthumb": "content/images/maps/Bitwig_Ohm_seqmode.jpg",
+					"mapcap": "mapping example - see wiki for complete details"
+				}
+			}
+		},
+		
+		"6": {
+			"name": "Imageline FL Studio",
+			"picon": "content/images/icons/flstudio_icon.png",
+			"ptitle": "FL Studio and OhmRGB",
+			"pid": "flstudio",
+			"ptext": "Text.",
+			"ititle": "FL Studio + OhmRGB",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "FL Studio Native Integration",
+					"text": "Text.",
+					"setname": "FL Studio",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_flstudio.jpg",
+					"cap": "FL Studio and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"7": {
+			"name": "MLRV",
+			"picon": "content/images/icons/mlrv_icon.png",
+			"ptitle": "MLRV and OhmRGB",
+			"pid": "mlrv",
+			"ptext": "Text.",
+			"ititle": "MLRV Studio + OhmRGB",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "MLRV",
+					"text": "Text.",
+					"setname": "MLRV VST",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_mlrv.jpg",
+					"cap": "MLRV and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"8": {
+			"name": "Arkaos Grand VJ",
+			"picon": "content/images/icons/arkaos_icon.png",
+			"ptitle": "Grand VJ and OhmRGB",
+			"pid": "arkaosgrandvj",
+			"ptext": "Text.",
+			"ititle": "Arkaos Grand VJ + OhmRGB",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Grand VJ Native integration",
+					"text": "Text.",
+					"setname": "Grand VJ Application",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_arkaosgvj.jpg",
+					"cap": "MLRV and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"9": {
+			"name": "VDMX",
+			"picon": "content/images/icons/vdmx_icon.png",
+			"ptitle": "VDMX and OhmRGB",
+			"pid": "vdmx",
+			"ptext": "Text.",
+			"ititle": "VDMX + OhmRGB",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "VDMX OhmRGB Template",
+					"text": "Maps the OhmRGB to VDMX",
+					"setname": "VDMX Template for OhmRGB",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_vdmx.jpg",
+					"cap": "VDMX and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"10": {
+			"name": "Resolume",
+			"picon": "content/images/icons/Resolume_icon.png",
+			"ptitle": "Resolume and OhmRGB",
+			"pid": "Resolume",
+			"ptext": "Text.",
+			"ititle": "Resolume + OhmRGB",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Resolume OhmRGB Template",
+					"text": "Maps the OhmRGB to Resolume",
+					"setname": "Resolume Template for OhmRGB",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_Resolume.jpg",
+					"cap": "Resolume and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"11": {
+			"name": "Luminaire",
+			"picon": "content/images/icons/Luminaire_icon.png",
+			"ptitle": "Luminaire and OhmRGB",
+			"pid": "Luminaire",
+			"ptext": "Text.",
+			"ititle": "Luminaire + OhmRGB",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Luminaire OhmRGB Template",
+					"text": "Maps the OhmRGB to Luminaire",
+					"setname": "Luminaire Template for OhmRGB",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_Luminaire.jpg",
+					"cap": "Luminaire and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"12": {
+			"name": "Madrix",
+			"picon": "content/images/icons/Madrix_icon.png",
+			"ptitle": "Madrix and OhmRGB",
+			"pid": "Madrix",
+			"ptext": "Text.",
+			"ititle": "Madrix + OhmRGB",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Madrix OhmRGB Template",
+					"text": "Maps the OhmRGB to Madrix",
+					"setname": "Madrix Template for OhmRGB",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/ohmrgb_Madrix.jpg",
+					"cap": "Madrix and OhmRGB",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+
+		"13": {
+			"name": "MIDI Settings Editor",
+			"picon": "content/images/icons/editor_icon.png",
+			"ptitle": "Livid Editor",
+			"pid": "editor",
+			"ptext": "The MIDI output and input settings for the OhmRGB can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.",
+			"ititle": "Livid Online Editor",
+			"ilinkmac": "http://www.lividserver.com/editor",
+			"ilinkwin": "",
+			"linktextalt": " Link",
+			"examples": {
+				"0": {
+					"title": "Customizing your Settings.",
+					"text": "Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the OhmRGB, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Online_Editor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/editor_ohm.png",
+					"cap": "OhmRGB Editor",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		}
+	}
+}

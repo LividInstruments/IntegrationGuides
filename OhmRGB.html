@@ -1,0 +1,540 @@
+<!--for serving live, rather than as a local website, change all 'install/.*\.app\.zip' to 'install/Mac_Installers.zip' and '.exe' to '.zip' and change content/setup.html to point to the wiki instead.-->
+<!--of course, you'll need to create a Mac_Installer.zip that bundles all the installers together, and create individual zips of the windows versions.-->
+
+<html><head>
+<title>Livid Integration Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+	<script src="content/js/jquery-1.11.0.min.js"></script>
+  <!--<script src="content/js/libs/pure.js"></script> -->
+	<!-- <script src="content/js/osdetect.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="content/font/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="content/css/style.css">
+  
+  <!-- Magnific Popup https://github.com/dimsemenov/Magnific-Popup files and init. QUICK start: http://www.templatemonster.com/help/js-animated-how-to-implement-jquery-magnific-popup-lightbox-plugin.html-->
+  <script src="content/mag/jquery.magnific-popup.js"></script>
+  <link rel="stylesheet" href="content/mag/magnific-popup.css">
+  <!--end Magnific Popup-->
+    
+</head>
+<body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+
+<!-------------------------------MAIN SELCTIONS---------------------------------->
+<div class="centerall">
+  <div class="container" id="start">	
+  
+    <div class="bannertext" id="toptitle">OhmRGB Integration Guide</div>
+  
+    <div class="rowreset"></div>
+    <div class="tngrid" id="productgrid"><div id="p_0" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#abletonlive9">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/live_icon.png"></a><br>
+<!--END ICON CELL-->Ableton Live 9</div><div id="p_1" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#abletonlive8">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/live8_icon.png"></a><br>
+<!--END ICON CELL-->Ableton Live 8</div><div id="p_2" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#bitwig">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/bitwig_icon.png"></a><br>
+<!--END ICON CELL-->Bitwig Studio</div><div id="p_3" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#nitraktor">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/traktor_icon.png"></a><br>
+<!--END ICON CELL-->Native Instruments Traktor</div><div class="rowreset"></div><div id="p_4" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#editor">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/editor_icon.png"></a><br>
+<!--END ICON CELL-->MIDI Settings Editor</div><div id="firmware_grid" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#firmwarediv">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/firmware_icon.png"></a><br>
+<!--END ICON CELL-->Firmware Update</div></div>
+  
+    <div class="productseparator"></div>
+  </div>
+<!-----------------------------------END MAIN----------------------------------->
+<div id="product_0" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/live_icon.png">
+	</div>
+	<div class="p_desc" id="abletonlive9"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Ableton Live and OhmRGB</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The OhmRGB's huge button grid and expanse of high quality controls make it a favorite for live performance and Ableton Live. Our Remote Script for the OhmRGB is one of the early innovators in multi-mode control surface scripting for Live. With the ability to quickly change from mixing tracks, DJing, or playing instruments and drums, or using the Steppr step sequences, the OhmModes script makes working in Live incredibly productive and fun.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Ableton Live 9 + OhmRGB</span>
+	    <a class="mac" href="http://lividinstruments.com/dl/LividLive9_RemoteScripts.dmg">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="http://lividinstruments.com/dl/LividLive9_RemoteScripts.exe">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_0_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Ohm_live9.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Ohm_live9_tn.jpg">
+        <span class="caption">OhmRGB controlling Live</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/ohmrgb_live_map.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/ohmrgb_live_map_tn.jpg"><br>
+        <span class="mapcaption">mapping example - see wiki for complete details</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">OhmModes Remote Script</h3>
+    <p class="setname">Project Name: Livid_OhmModes Remote Script</p>
+    <p class="text">
+    The OhmModes Remote Script provides 4 different modes of working with Ableton Live: Mixing, DJing, Playing, and Max For Live Sequencers. Drop in and out of these modes with ease and have complete creative control of your set with one of the greatest ever MIDI controllers.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Ohm_Modes_Ableton_Live_Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/PH-A4-DzDME?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_0_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/ohmrgb_stepprs.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/ohmrgb_stepprs_tn.jpg">
+        <span class="caption">Ohm Steppr Max for Live devices</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/ohmrgb_stepprs.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/ohmrgb_stepprs_tn.jpg"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Max for Live Stepprs</h3>
+    <p class="setname">Project Name: Filename</p>
+    <p class="text">
+    These three unique Max for Live devices offer ideal integration between Max for Live and your Ableton Live set. With the ability to seamlessly jump from mixing clips to direct control over different step sequencers, no controller has ever been released with so much flexibility and function. <a href="http://www.lividinstruments.com/dl/LividOhmStepp-rSampleProject.zip">Get the Max for Live devices here.</a></p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Ohm_Modes_Ableton_Live_Remote_Script#4._Modules">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/https://www.youtube.com/watch?v=EQrpOKe7rQk?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_1" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/live8_icon.png">
+	</div>
+	<div class="p_desc" id="abletonlive8"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Ableton Live 8 and OhmRGB</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The OhmRGB's huge button grid and expanse of high quality controls make it a favorite for live performance and Ableton Live. Our Remote Script for the OhmRGB is one of the early innovators in multi-mode control surface scripting for Live. With the ability to quickly change from mixing tracks, DJing, or playing instruments and drums, or using the Steppr step sequences, the OhmModes script makes working in Live incredibly productive and fun.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Ableton Live 8 + OhmRGB</span>
+	    <a class="mac" href="http://lividinstruments.com/dl/Livid_OhmModes2_LiveRemoteScript.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="http://lividinstruments.com/dl/Livid_OhmModes2_LiveRemoteScript.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_1_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Ohm_live8.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Ohm_live8_tn.jpg">
+        <span class="caption">OhmRGB controlling Live</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/ohmrgb_live_map.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/ohmrgb_live_map_tn.jpg"><br>
+        <span class="mapcaption">mapping example - see wiki for complete details</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">OhmModes Remote Script</h3>
+    <p class="setname">Project Name: Livid_OhmModes Remote Script</p>
+    <p class="text">
+    The OhmModes Remote Script provides 4 different modes of working with Ableton Live: Mixing, DJing, Playing, and Max For Live Sequencers. Drop in and out of these modes with ease and have complete creative control of your set with one of the greatest ever MIDI controllers.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Ohm_Modes_Ableton_Live_Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_1_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/ohmrgb_stepprs.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/ohmrgb_stepprs_tn.jpg">
+        <span class="caption">Ohm Steppr Max for Live devices</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/ohmrgb_stepprs.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/ohmrgb_stepprs_tn.jpg"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Max for Live Stepprs</h3>
+    <p class="setname">Project Name: Filename</p>
+    <p class="text">
+    These three unique Max for Live devices offer ideal integration between Max for Live and your Ableton Live set. With the ability to seamlessly jump from mixing clips to direct control over different step sequencers, no controller has ever been released with so much flexibility and function. <a href="http://www.lividinstruments.com/dl/LividOhmStepp-rSampleProject.zip">Get the Max for Live devices here.</a></p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Ohm_Modes_Ableton_Live_Remote_Script#4._Modules">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_2" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/bitwig_icon.png">
+	</div>
+	<div class="p_desc" id="bitwig"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Bitwig Studio and OhmRGB</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Bitwig Studio is a unique environment for sketching, composing, and mixing tracks on your computer. With the OhmRGB's huge number of buttons and generous number of pots, it's ready to mix and tweak all your favorite clips and sounds. With a natively supported Seqeuncer, you can quickly add new clips and build up your songs.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Bitwig Studio + OhmRGB</span>
+	    <a class="mac" href="https://github.com/LividInstruments/Bitwig/archive/master.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="https://github.com/LividInstruments/Bitwig/archive/master.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_2_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/ohmrgb_bitwig_script.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/ohmrgb_bitwig_script_tn.jpg">
+        <span class="caption">OhmRGB controlling Live</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Bitwig_Ohm_seqmode.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Bitwig_Ohm_seqmode_tn.jpg"><br>
+        <span class="mapcaption">mapping example - see wiki for complete details</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Bitwig Control Surface Script</h3>
+    <p class="setname">Project Name: OhmRGB Control Surface Script</p>
+    <p class="text">
+    There are two modes that give you full control over Bitwig with the OhmRGB: Mix and Sequence. With additional shifted functions, your entire DAW is at your fingertips, and you'll be rocking tracks as fast as you can think.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Ohm_Bitwig_Control_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/Ua1X8Wa_nTc?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_3" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/traktor_icon.png">
+	</div>
+	<div class="p_desc" id="nitraktor"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Traktor and OhmRGB</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    A huge grid of buttons and plenty of knobs and sliders for effects and EQ, the OhmRGB is an ideal controller to map out custom control of your DJ set in Traktor. We have several different examples for you to jump right in and start mixing, or modify for your own needs.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">NI Traktor + Livid Controller Content installer:</span>
+	     
+	     
+	    </p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_3_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/ohmrgb_traktor_tc.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/ohmrgb_traktor_tc_tn.jpg">
+        <span class="caption">OhmRGB Total Control of Traktor</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/ohmrgb_traktor_tc.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/ohmrgb_traktor_tc_tn.jpg"><br>
+        <span class="mapcaption">map example - see wiki for complete details.</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Total Control OhmRGB Traktor map</h3>
+    <p class="setname">Project Name: OhmRGB Total Control.tsi</p>
+    <p class="text">
+    The Ohm RGB control map for Traktor provides two modes. The first is designed for mixing four track decks, the second is designed for controlling effects and two remix decks. <a href="http://lividinstruments.com/dl/LividOhmRGB_Traktor_TC.zip">Download the .tsi file from here</a></p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/OhmRGB_Traktor">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_3_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/maps/ohmrgb_traktor_leolux.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/maps/ohmrgb_traktor_leolux_tn.jpg">
+        <span class="caption">Traktor and OhmRGB</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">LeoLux Map at DJ Techtools</h3>
+    <p class="setname">Project Name: OhmRGB and Traktor</p>
+    <p class="text">
+    Focusing on the Remix Decks in Traktor, this map gives you all the control you need to break things up and break it down. Available from super user <a href="https://maps.djtechtools.com/mappings/2166">LeoLux at the DJ Tech Tools site.</a></p>
+    
+    <p>
+    <a class="alt_a manual" href="https://maps.djtechtools.com/mappings/2166">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_3_2"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/maps/ohmrgb_traktor_basic.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/maps/ohmrgb_traktor_basic_tn.jpg">
+        <span class="caption">Basic Map for Traktor and OhmRGB</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Basic OhmRGB Traktor Map</h3>
+    <p class="setname">Project Name: OhmRGB_traktor.tsi</p>
+    <p class="text">
+    Four decks, eq, sample slots, and pretty much everything you need for hands-on control of Traktor with the OhmRGB <a href="http://lividinstruments.com/dl/OhmRGB_traktor.tsi.zip">Download the .tsi file here</a></p>
+    
+    <p>
+    
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_4" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/editor_icon.png">
+	</div>
+	<div class="p_desc" id="editor"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Livid Editor</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The MIDI output and input settings for the OhmRGB can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Livid Online Editor</span>
+	    <a class="mac" href="http://www.lividserver.com/editor"> Link</a> 
+	     
+	    </p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_4_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/editor_ohm.png">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/editor_ohm_tn.png">
+        <span class="caption">OhmRGB Editor</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Customizing your Settings.</h3>
+    
+    <p class="text">
+    Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the OhmRGB, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Online_Editor">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="firmwarediv" class="container"><!-- BEGIN FIRMWARE -->
+    <div class="left-column">
+		<!--firmware icon-->
+      <img width="150" height="150" alt="" class="prodicon" src="content/images/icons/firmware_icon.png">
+    </div>
+    <div class="content" id="firmware">
+      <h2 class="p_title">Firmware</h2>
+      <!--product description text-->
+      <p class="p_text">
+        Firmware can be updated using the Firmware Update software tools for Mac and Windows. 
+        Complete instructions are <a href="http://wiki.lividinstruments.com/wiki/Updating_Your_Firmware">on our wiki</a>.
+        <!--fill in info from firmware.json-->
+        </p><div id="os_0">
+        <span class="utilname">OSX: Livid Firmware Update</span>: <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/Livid_Firmware_Update-1.13.app.zip">Download version <span class="version">1.13</span> </a>(<span class="comment">Mac OS X 10.6+</span>)
+        </div>
+        <div id="os_1">
+        <span class="utilname">Windows: HID Bootloader</span>: <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/HIDBootLoader_26_win.zip">Download version <span class="version">2.60</span> </a>(<span class="comment">Windows XP,7,8</span>)
+        </div>
+      <p></p>
+    <div id="fw_0"> <h3 class="type">current</h3> <p class="text"> <span class="version">0.63</span> - <a class="alt_a link" href="">Download firmware hex file</a><br><span class="comment"></span></p></div><div id="fw_1"> <h3 class="type">alternate</h3> <p class="text"> <span class="version">0.63br</span> - <a class="alt_a link" href="">Download firmware hex file</a><br><span class="comment">There are some OhmRGB models that have a different RGB LED module, resulting in a problem with velocity-to-color maps. You can find out if you need the alternate version of the firmware by downloading the following hyperlink: http://lividinstruments.com/dl/OhmRGBColorGrid.maxpat.zip</span></p></div><div id="fw_2"> <h3 class="type">aliased</h3> <p class="text"> <span class="version">0.63a</span> - <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/ohmRGB_063_alias.hex.zip">Download firmware hex file</a><br><span class="comment">Use Aliased firmware on one of the controllers, if you intend to use two OhmRGB's on a single computer.</span></p></div></div>
+      
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div>
+<!-- END FIRMWARE --></div></div>
+
+</body></html>

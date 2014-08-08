@@ -1,0 +1,286 @@
+{
+	"products": {
+		"0": {
+			"name": "Ableton Live 9",
+			"picon": "content/images/icons/live_icon.png",
+			"ptitle": "Ableton Live 9 and Base",
+			"pid": "abletonlive9",
+			"ptext": "A comprehensive script for working with all aspects of Live: clip launching, drumming, playing synths, mixing, sequencing, and controlling effects. With several modes for different tasks, you'll most likely find what you are looking for, and if you don't, the user mode allows you to customize the controls to whatever you want in Live.",
+			"ititle": "Ableton Live + Base Content installer:",
+			"ilinkmac": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.dmg",
+			"ilinkwin": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.exe",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "The Remote Script for Live 9 provides comprehensive control over clip launching, effects, sends and returns, mixing, sequencing, and much more. Mapped to drum racks, the Base provides an intuitive interface for playing and sequencing. Mapped to synths, the Base can act as a modifiable keyboard allowing you to map notes and keys in any number of scales and octaves. Our wiki provides comprehensive documentation and video tutorials so you can get exactly what you want from playing the Base in Live.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Base_Ableton_Live_Remote_Script",
+					"youtube": "uZ5hk90PziU",
+					"leftthumb": "content/images/screencaps/live9_base.jpg",
+					"cap": "Remote Script ",
+					"mapthumb": "content/images/maps/live9_map.jpg",
+					"mapcap": "map example - see wiki for more"
+				}
+			}
+		},
+		"1": {
+			"name": "Ableton Live 8",
+			"picon": "content/images/icons/live8_icon.png",
+			"ptitle": "Ableton Live 8 and Base",
+			"pid": "abletonlive8",
+			"ptext": "The Base works with Live 8 with a comprehensive script for working with all aspects of Live: clip launching, drumming, playing synths, mixing, and controlling effects. ",
+			"ititle": "Ableton Live 8 + Base script download:",
+			"ilinkmac": "http://lividinstruments.com/dl/Base_Live8Remote.zip",
+			"ilinkwin": "http://lividinstruments.com/dl/Base_Live8Remote.zip",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "For those still working in Live 8, the Base offers the most comprehensive, playable solution for synths, drums, effects, and clip launching. The mapping is similar to the Live 9 maps, but does not include the sequencing.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Base_Ableton_Live_Remote_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/live8_base.jpg",
+					"cap": "Remote Script ",
+					"mapthumb": "content/images/maps/live8_map.jpg",
+					"mapcap": "map example - see wiki for more"
+				}
+			}
+		},
+		"2": {
+			"name": "Cycling '74 Max",
+			"picon": "content/images/icons/max_icon.png",
+			"ptitle": "Cycling '74 Max / Max for Live and Base",
+			"pid": "cycling74max",
+			"ptext": "Like all Livid Controllers, there's a lot of possibility with the minimal interface and the open world of Max 6.  With the simple examples below, you'll be building patches and devices around your Base in no time.",
+			"ititle": "Cycling74 + Base patches download:",
+			"ilinkmac": "http://lividinstruments.com/dl/Cycling74Max_Base.zip",
+			"ilinkwin": "http://lividinstruments.com/dl/Cycling74Max_Base.zip",
+			"examples": {
+				"0": {
+					"title": "Max for Live device and script",
+					"text": "We've created a simple Ableton Live Remote Script and example Max for Live device that makes it easy to start building instrument modules that work seamlessly with the Livid Base in Max for Live.  Be sure to install the Live 9 Remote Scripts for the Base_M4L Remote Script! When you install, make sure the Base DeviceExample.amxd and LividBaseHub.js are in your Max search path.",
+					"setname": "Base DeviceExample.amxd",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Base_M4Ldevice.jpg",
+					"cap": "Example Max For Live Device for Base, linked to script",
+					"mapthumb": "",
+					"mapcap": ""
+				},
+				"1": {
+					"title": "Base InOut patch",
+					"text": "For Max users, there's a patch that parses MIDI for input from and output to the Base. This makes easy to control your patch from the Base, as well as keep the Base LEDs in sync with the Max UI.",
+					"setname": "Base InOut.maxpat",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/base_maxpatch.jpg",
+					"cap": "Max patch for Base",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"3": {
+			"name": "Propellerhead Reason",
+			"picon": "content/images/icons/reason_icon.png",
+			"ptitle": "Reason and Base",
+			"pid": "propellerheadreason",
+			"ptext": "Propellerhead's Reason is a legendary environment for synths, sampling, sequencing, and recording. Unique in the DAW marketplace, it's high quality devices and sounds are a producer's dream. The Livid Base brings some long-needed, comprehensive hands-on control to playing and controlling the effects and synths in Reason. ",
+			"ititle": "Reason + Base scripts on github:",
+			"ilinkmac": "https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Reason Remote for Base",
+					"text": "With the ability to choose from several scales and octaves, and a clever scheme to fix scales to certain devices, the Base brings a whole new level of play to Reason. This script also automatically detects the presence of Kong devices, so the pads will adjust to play Kong devices. You can even load 2 Kongs in a Combinator. See the wiki manual for more information. Although the Base Reason Remote script is automatically bundled with Reason 7, you may need to download and install the scripts from github to update.",
+					"setname": "Base DeviceExample.amxd",
+					"manual": "http://wiki.lividinstruments.com/wiki/Base_Reason_Remote_Script",
+					"youtube": "e4svKBvzHlw",
+					"leftthumb": "content/images/screencaps/reasonremote.jpg",
+					"cap": "Remote Script for Reason",
+					"mapthumb": "content/images/maps/reasonremote_map.jpg",
+					"mapcap": "Example mapping for Base and Reason."
+				}
+			}
+		},
+		"4": {
+			"name": "Bitwig Studio",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "Bitwig Studio and Base",
+			"pid": "bitwigstudio",
+			"ptext": "Bitwig Studio offers a streamlined workflow, infinite modulation possibilities, and a terrific controller integration engine. We've run with that and created a sophisticated script for Bitwig for sequencing, playing, and tweaking your mix. Bitwig Studio comes with the Base script embedded, however, you may need to download the latest from GitHub if there is a script update before there is a new release of Bitwig Studio.",
+			"ititle": "Bitwig Studio + Livid Base github download:",
+			"ilinkmac": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Control Surface Script",
+					"text": "The Control Surface script for Base and Bitwig Studio is a gold standard of integration and sophistication. With access to clip launching, devices, mixing, and sequencing, the Base offers a huge amount of control and playability for your tracks.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Base_Bitwig_Control_Script",
+					"youtube": "694pfJpPwT8",
+					"leftthumb": "content/images/screencaps/base_bitwig.jpg",
+					"cap": "Controlling Bitwig with the Base",
+					"mapthumb": "content/images/maps/base_bitwig_map.jpg",
+					"mapcap": "map example - see wiki for more"
+				}
+				}
+			},
+		"5": {
+			"name": "Native Instruments Traktor",
+			"picon": "content/images/icons/traktor_icon.png",
+			"ptitle": "NI Traktor and Base",
+			"pid": "nitraktor",
+			"ptext": "Native Instrument's Traktor DJ software takes the concept of making music with two turntables and expands it to infinity. With multiple decks of multiple types, and a huge library of effects, Traktor needs an innovative controller to get the most out of the software.",
+			"ititle": "NI Traktor + Livid Base tsi download:",
+			"ilinkmac": "http://lividinstruments.com/dl/LividBase_Traktor_TC.zip",
+			"ilinkwin": "http://lividinstruments.com/dl/LividBase_Traktor_TC.zip",
+			"examples": {
+				"0": {
+					"title": "Traktor Total Control",
+					"text": "This .tsi file provides a complete mapping for controlling two or four decks, effects, and remix slots using different modes. However you like to break it down, there's a mode for you. This comes with a Livid Editor Preset file (.json) that you can load with our <a href='http://www.lividserver.com/editor'>online editor</a> to change the settings as needed.",
+					"setname": "LividBase_Traktor_TC.tsi",
+					"manual": "http://wiki.lividinstruments.com/wiki/Base_Traktor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/base_traktor_cap.jpg",
+					"cap": "Controlling Traktor with the Base",
+					"mapthumb": "content/images/maps/base_traktor_map.png",
+					"mapcap": "map example - see wiki for more"
+				},
+				"1": {
+					"title": "Traktor Ultimate Tool for Base",
+					"text": "This .tsi file by Traktor super-user Stewe will split your BASE controller in to two sections: Transport and FX Engine. Find out more at <a href='http://forum.djtechtools.com/showthread.php?t=76386&p=655176#post655176'> the DJ Tech Tools Forum </a>",
+					"setname": "BASE advanced mapping 0.1.0.tsi",
+					"manual": "https://maps.djtechtools.com/mappings/2042",
+					"youtube": "kAWZLLAUvjU",
+					"leftthumb": "content/images/screencaps/base_traktor_ultimate.jpg",
+					"cap": "Ultimate Tool for Base",
+					"mapthumb": "content/images/maps/base_traktor_ultimate.jpg",
+					"mapcap": "map example - see wiki for more"
+				}
+			}
+		},
+		
+		"6": {
+			"name": "Imageline FL Studio",
+			"picon": "content/images/icons/flstudio_icon.png",
+			"ptitle": "FL Studio and Base",
+			"pid": "flstudio",
+			"ptext": "Text.",
+			"ititle": "FL Studio + Base",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "FL Studio Native Integration",
+					"text": "Text.",
+					"setname": "FL Studio",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Base_flstudio.jpg",
+					"cap": "FL Studio and Base",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		
+		"7": {
+			"name": "WaveDNA Liquid Rhythm",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "WaveDNA Liquid Rhythm and Base",
+			"pid": "wavednaliquidrhythm",
+			"ptext": "Text.",
+			"ititle": "WaveDNA Liquid Rhythm + Base",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "WaveDNA Liquid Rhythm Base Control Surface Script",
+					"text": "Maps the Base to WaveDNA Liquid Rhythm",
+					"setname": "Livid_Base Remote Script",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Base_bitwig.jpg",
+					"cap": "WaveDNA Liquid Rhythm and Base",
+					"mapthumb": "content/images/maps/Base_bitwig_map.jpg",
+					"mapcap": "Base mapping"
+				}
+			}
+		},
+		
+		"8": {
+			"name": "VDMX",
+			"picon": "content/images/icons/vdmx_icon.png",
+			"ptitle": "VDMX and Base",
+			"pid": "vdmx",
+			"ptext": "Text.",
+			"ititle": "VDMX + Base",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "VDMX Base Template",
+					"text": "Maps the Base to VDMX",
+					"setname": "VDMX Template for Base",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Base_vdmx.jpg",
+					"cap": "VDMX and Base",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		
+		
+		"9": {
+			"name": "Arkaos Grand VJ",
+			"picon": "content/images/icons/arkaos_icon.png",
+			"ptitle": "Grand VJ and Base",
+			"pid": "arkaosgrandvj",
+			"ptext": "Text.",
+			"ititle": "Arkaos Grand VJ + Base",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Grand VJ Native integration",
+					"text": "Text.",
+					"setname": "Grand VJ Application",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Base_arkaosgvj.jpg",
+					"cap": "MLRV and Base",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		
+		"10": {
+			"name": "MIDI Settings Editor",
+			"picon": "content/images/icons/editor_icon.png",
+			"ptitle": "Livid Editor",
+			"pid": "editor",
+			"ptext": "The MIDI output and input settings for the Base can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.",
+			"ititle": "Livid Online Editor",
+			"ilinkmac": "http://www.lividserver.com/editor",
+			"ilinkwin": "",
+			"linktextalt": " Link",
+			"examples": {
+				"0": {
+					"title": "Customizing your Settings.",
+					"text": "Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the Base, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Online_Editor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/editor_base.png",
+					"cap": "Base Editor",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		}
+	}
+}

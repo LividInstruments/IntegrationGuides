@@ -1,0 +1,200 @@
+<!--
+This form is used to generate a 'product' json file. Fill out the form(s) and submit. 
+Then copy and paste the JSON into product_dbase_[controllername].json file for use in the integration guide template system
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+		PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<title>Product JSON generator</title>
+</head>
+
+<body>
+<div>
+This form is used to generate a 'software product' json file. Fill out the form(s) and submit. 
+Then copy and paste the JSON into product_dbase_[controllername].json file for use in the integration guide template system.
+ 
+</div>
+
+<form id="testForm" action="javascript:test()">
+<h2>Software Product</h2>
+  <dl>
+    <dt><label>Software Name</label></dt>
+    <dd><input size="50" type="text" name="products.0.name" value="SoftwareTitleName"></dd>
+  </dl>
+  <dl>
+    <dt><label>Product Icon</label></dt>
+    <dd><input size="50" type="text" name="products.0.picon" value="content/images/icons/product.png"></dd>
+  </dl>
+  <dl>
+    <dt><label>Product Title</label></dt>
+    <dd><input size="50" type="text" name="products.0.ptitle" value="SoftwareAndController"></dd>
+  </dl>
+  <dl>
+    <dt><label>Anchor Name (div id)</label></dt>
+    <dd><input size="50" type="text" name="products.0.pid" value="softwarename"></dd>
+  </dl>
+  <dl>
+    <dt><label>Overview text</label></dt>
+    <dd><textarea rows="8" cols="50" name="products.0.ptext">Overview text of integration of controller model with software package.</textarea></dd>
+  </dl>
+  <dl>
+    <dt><label>Installer Title</label></dt>
+    <dd><input size="50" type="text" name="products.0.ititle" value="Software Title + Livid Controller Content installer:"></dd>
+  </dl>
+  <dl>
+    <dt><label>Mac Installer Link</label></dt>
+    <dd><input size="50" type="text" name="products.0.ilinkmac" value="install/Mac_Installers.dmg"></dd>
+  </dl>
+  <dl>
+    <dt><label>Windows Installer Link</label></dt>
+    <dd><input size="50" type="text" name="products.0.ilinkwin" value="install/Content_Installer.zip"></dd>
+  </dl>
+
+<h3>Example 0</h3>
+  <dl>
+    <dt><label>Example Title</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.0.title" value="TitleName"></dd>
+  </dl>
+  <dl>
+    <dt><label>Description Text</label></dt>
+    <dd><textarea rows="8" cols="50" name="products.0.examples.0.text">Describe the example</textarea></dd>
+  </dl>
+  <dl>
+    <dt><label>Name of Set or Project file</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.0.setname" value="Filename"></dd>
+  </dl>
+  <dl>
+    <dt><label>Link to Wiki instructions</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.0.manual" value="http://wiki.lividinstruments.com/wiki/title"></dd>
+  </dl>
+  <dl>
+    <dt><label>Screencap Image</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.0.leftthumb" value="content/images/screencaps/"></dd>
+  </dl>
+  <dl>
+    <dt><label>Screencap Caption</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.0.cap" value="caption"></dd>
+  </dl>
+  <dl>
+    <dt><label>Map Image</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.0.mapthumb" value="content/images/maps/"></dd>
+  </dl>
+  <dl>
+    <dt><label>Map Caption</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.0.mapcap" value="map"></dd>
+  </dl>
+  <dl>
+    <dt><label>YouTube video code</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.0.youtube" value="map"></dd>
+  </dl>
+  
+<h3>Example 1</h3>
+  <dl>
+    <dt><label>Example Title</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.1.title" value="TitleName"></dd>
+  </dl>
+  <dl>
+    <dt><label>Description Text</label></dt>
+    <dd><textarea rows="8" cols="50" name="products.0.examples.1.text">Describe the example</textarea></dd>
+  </dl>
+  <dl>
+    <dt><label>Name of Set or Project file</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.1.setname" value="Filename"></dd>
+  </dl>
+  <dl>
+    <dt><label>Link to Wiki instructions</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.1.manual" value="http://wiki.lividinstruments.com/wiki/title"></dd>
+  </dl>
+  <dl>
+    <dt><label>Screencap Image</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.1.leftthumb" value="content/images/screencaps/"></dd>
+  </dl>
+  <dl>
+    <dt><label>Screencap Caption</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.1.cap" value="caption"></dd>
+  </dl>
+  <dl>
+    <dt><label>Map Image</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.1.mapthumb" value="content/images/maps/"></dd>
+  </dl>
+  <dl>
+    <dt><label>Map Caption</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.1.mapcap" value="map"></dd>
+  </dl>
+  <dl>
+    <dt><label>YouTube video code</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.1.youtube" value="map"></dd>
+  </dl>
+  
+<h3>Example 2</h3>
+  <dl>
+    <dt><label>Example Title</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.2.title" value="TitleName"></dd>
+  </dl>
+  <dl>
+    <dt><label>Description Text</label></dt>
+    <dd><textarea rows="8" cols="50" name="products.0.examples.2.text">Describe the example</textarea></dd>
+  </dl>
+  <dl>
+    <dt><label>Name of Set or Project file</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.2.setname" value="Filename"></dd>
+  </dl>
+  <dl>
+    <dt><label>Link to Wiki instructions</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.2.manual" value="http://wiki.lividinstruments.com/wiki/title"></dd>
+  </dl>
+  <dl>
+    <dt><label>Screencap Image</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.2.leftthumb" value="content/images/screencaps/"></dd>
+  </dl>
+  <dl>
+    <dt><label>Screencap Caption</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.2.cap" value="caption"></dd>
+  </dl>
+  <dl>
+    <dt><label>Map Image</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.2.mapthumb" value="content/images/maps/"></dd>
+  </dl>
+  <dl>
+    <dt><label>Map Caption</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.2.mapcap" value="map"></dd>
+  </dl>
+  <dl>
+    <dt><label>YouTube video code</label></dt>
+    <dd><input size="50" type="text" name="products.0.examples.2.youtube" value="map"></dd>
+  </dl>
+
+	<dl>
+		<dt></dt>
+		<dd><input size="50" type="submit" /></dd>
+	</dl>
+	
+</form>
+
+<pre><code id="testArea">
+</code></pre>
+
+<script type="text/javascript" src="form2js.js"></script>
+<script type="text/javascript" src="json2.js"></script>
+<script type="text/javascript">
+	function test()
+	{
+		var formData = form2js('testForm', '.', true,
+				function(node)
+				{
+					if (node.id && node.id.match(/callbackTest/))
+					{
+						return { name: node.id, value: node.innerHTML };
+					}
+				});
+
+		document.getElementById('testArea').innerHTML = JSON.stringify(formData, null, '\t');
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!--for serving live, rather than as a local website, change all 'install/.*\.app\.zip' to 'install/Mac_Installers.zip' and '.exe' to '.zip' and change content/setup.html to point to the wiki instead.-->
+<!--of course, you'll need to create a Mac_Installer.zip that bundles all the installers together, and create individual zips of the windows versions.-->
+<html><head>
+<title>Livid Integration Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+	<script src="content/js/jquery-1.11.0.min.js"></script>
+  <!--<script src="content/js/libs/pure.js"></script> -->
+	<!-- <script src="content/js/osdetect.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="content/font/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="content/css/style.css">
+  
+  <!-- Magnific Popup https://github.com/dimsemenov/Magnific-Popup files and init. QUICK start: http://www.templatemonster.com/help/js-animated-how-to-implement-jquery-magnific-popup-lightbox-plugin.html-->
+  <script src="content/mag/jquery.magnific-popup.js"></script>
+  <link rel="stylesheet" href="content/mag/magnific-popup.css">
+  <!--end Magnific Popup-->
+    
+</head>
+<body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+
+<!-------------------------------MAIN SELCTIONS---------------------------------->
+<div class="centerall">
+  <div class="container" id="start">	
+  
+    <div class="bannertext" id="toptitle">Alias8 Integration Guide</div>
+  
+    <div class="rowreset"></div>
+    <div class="tngrid" id="productgrid"><div id="p_0" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#abletonlive9">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/live_icon.png"></a><br>
+<!--END ICON CELL-->Ableton Live 9</div><div id="p_1" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#abletonlive8">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/live8_icon.png"></a><br>
+<!--END ICON CELL-->Ableton Live 8</div><div id="p_2" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#bitwigstudio">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/bitwig_icon.png"></a><br>
+<!--END ICON CELL-->Bitwig Studio</div><div id="p_3" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#propellerheadreason">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/reason_icon.png"></a><br>
+<!--END ICON CELL-->Propellerhead Reason</div><div class="rowreset"></div><div id="p_4" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#editor">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/editor_icon.png"></a><br>
+<!--END ICON CELL-->MIDI Settings Editor</div><div id="firmware_grid" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#firmwarediv">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/firmware_icon.png"></a><br>
+<!--END ICON CELL-->Firmware Update</div></div>
+  
+    <div class="productseparator"></div>
+  </div>
+<!-----------------------------------END MAIN----------------------------------->
+
+<div id="product_0" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/live_icon.png">
+	</div>
+	<div class="p_desc" id="abletonlive9"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Ableton Live and Alias8</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    With 15 easily accessed channels, the diminutive footprint of the Alias8 hides the fact that there are 14 other controllers waiting in the wings, behind the one you are using. The Alias8 is MIDI Learn's best friend, putting a massive amount of controls for effects, mixing, and anything else you can map with Live's MIDI learn. The simple Remote Script makes it easy to automatically latch the Alias8 to all your tracks for mixing duties.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Ableton Live 9 + Alias8 script installer:</span>
+	    <a class="mac" href="http://lividinstruments.com/dl/LividLive9_RemoteScripts.dmg">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="http://lividinstruments.com/dl/LividLive9_RemoteScripts.exe">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_0_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/alias8_live9.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/alias8_live9_tn.jpg">
+        <span class="caption">Alias8 controlling Live</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/alias8_live9.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/alias8_live9_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Remote Script</h3>
+    <p class="setname">Project Name: Livid_Alias8 Remote Script</p>
+    <p class="text">
+    The Alias8 Remote Script maps the controls on channel one to simple mixing parameters. Change the channel to access up to 13 more user-mapped modes for MIDI Learn.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Alias8_Ableton_Live_Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_1" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/live8_icon.png">
+	</div>
+	<div class="p_desc" id="abletonlive8"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Ableton Live 8 and Alias8</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    With 15 easily accessed channels, the diminutive footprint of the Alias8 hides the fact that there are 14 other controllers waiting in the wings, behind the one you are using. The Alias8 is MIDI Learn's best friend, putting a massive amount of controls for effects, mixing, and anything else you can map with Live's MIDI learn. The simple Remote Script makes it easy to automatically latch the Alias8 to all your tracks for mixing duties.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Ableton Live 8 + Alias8 script installer:</span>
+	    <a class="mac" href="http://lividinstruments.com/dl/Alias8_LiveRemoteScript.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="http://lividinstruments.com/dl/Alias8_LiveRemoteScript.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_1_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/alias8_live8.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/alias8_live8_tn.jpg">
+        <span class="caption">Alias8 controlling Live</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/alias8_live9.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/alias8_live9_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Remote Script</h3>
+    <p class="setname">Project Name: Livid_Alias8 Remote Script</p>
+    <p class="text">
+    The Alias8 Remote Script maps the controls on channel one to simple mixing parameters. Change the channel to access up to 13 more user-mapped modes for MIDI Learn.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Alias8_Ableton_Live_Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_2" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/bitwig_icon.png">
+	</div>
+	<div class="p_desc" id="bitwigstudio"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Bitwig Studio and Alias 8</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Bitwig Studio is a modern DAW, designed for composition, sketching, and live performance. Our Control Surface Script for Bitwig Studio takes full advantage of their open scripting API to create several different mix styles. There's also an old-school step-sequencer for hands-on synth fun.  Bitwig Studio comes with the Alias8 script embedded, however, you may need to download the latest from GitHub if there is a script update before there is a new release of Bitwig Studio.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Software Title + Livid Controller Content installer:</span>
+	    <a class="mac" href="https://github.com/LividInstruments/Bitwig/archive/master.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="https://github.com/LividInstruments/Bitwig/archive/master.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_2_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/alias8_bitwigscript.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/alias8_bitwigscript_tn.jpg">
+        <span class="caption">Alias8 mapped to bitwig studio</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/alias8_bitwigscript.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/alias8_bitwigscript_tn.png"><br>
+        <span class="mapcaption">example map - see wiki for more details</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Control Surface Script</h3>
+    <p class="setname">Project Name: Alias8 Control Script</p>
+    <p class="text">
+    Using the channel selector encoder on the Alias8, you can quickly change the mappings to different parts of Bitwig Studio. Mixing, sequencing, effects control, and an interactive step sequencer, based on classic synth designs, are all available at your finger tips.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Alias8_Bitwig_Control_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_3" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/reason_icon.png">
+	</div>
+	<div class="p_desc" id="propellerheadreason"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Propellerhead Reason and Alias8</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The Alias8 makes it easy to access controls for your favorite synths and effects in Reason. You can change what you are controlling, or just use it as a dedicated editor for your favorite synth. It also provides quick access to simple mixing functions in Reason's mixer to get your mix just right. Even more exciting is native support for PEFF's Alias8 CV Rack Extension which turns the Alias8 into a unique, customizable hardware control for CV networks in your Rack. Although the Alias8 Reason Remote script is automatically bundled with Reason 7, you may need to download and install the scripts from github to update.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Reason + Alias8 github link:</span>
+	    <a class="mac" href="https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_3_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/alias8_reasonscript.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/alias8_reasonscript_tn.jpg">
+        <span class="caption">Controlling Reason with the Alias 8</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/alias8_reasonscript.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/alias8_reasonscript_tn.png"><br>
+        <span class="mapcaption">example map - see wiki for more details</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Remote Script</h3>
+    <p class="setname">Project Name: Remote Script</p>
+    <p class="text">
+    The Alias8 is mapped to every device in Reason, giving you flexible or dedicated control over effects and synths. Several variations for more complex devices allow you to control oscillators, filters, and modulation. </p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Alias8_Reason_Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/slqrzKOLODY?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_3_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/alias8cv_reason.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/alias8cv_reason_tn.jpg">
+        <span class="caption">Alias8CV in action</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/screencaps/alias8_cv_panels.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/screencaps/alias8_cv_panels_tn.jpg"><br>
+        <span class="mapcaption">Front and back panels of Alias8CV</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">PEFF Alias8CV</h3>
+    <p class="setname">Project Name: Alias8CV Rack Extension</p>
+    <p class="text">
+    One of the most unique Rack Extensions in the Propellerhead RE library, the Alias8CV is a patchable interface for all CV controls that links directly to the Alias8 controls. By linking different synths, samplers, and effects with CV, you can create incredible interactive devices and compositions and record both the automation and audio output for continued refinement. </p>
+    
+    <p>
+    <a class="alt_a manual" href="https://shop.propellerheads.se/product/alias8-cv-controller/">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/m5_ldbMvTkw?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_4" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/editor_icon.png">
+	</div>
+	<div class="p_desc" id="editor"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Livid Editor</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The MIDI output and input settings for the Alias8 can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Livid Online Editor</span>
+	    <a class="mac" href="http://www.lividserver.com/editor"> Link</a> 
+	     
+	    </p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_4_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/editor_alias8.png">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/editor_alias8_tn.png">
+        <span class="caption">Alias8 Editor</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Customizing your Settings.</h3>
+    
+    <p class="text">
+    Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the Alias8, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Online_Editor">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="firmwarediv" class="container"><!-- BEGIN FIRMWARE -->
+    <div class="left-column">
+		<!--firmware icon-->
+      <img width="150" height="150" alt="" class="prodicon" src="content/images/icons/firmware_icon.png">
+    </div>
+    <div class="content" id="firmware">
+      <h2 class="p_title">Firmware</h2>
+      <!--product description text-->
+      <p class="p_text">
+        Firmware can be updated using the Firmware Update software tools for Mac and Windows. 
+        Complete instructions are <a href="http://wiki.lividinstruments.com/wiki/Updating_Your_Firmware">on our wiki</a>.
+        <!--fill in info from firmware.json-->
+        </p><div id="os_0">
+        <span class="utilname">OSX: Livid Firmware Update</span>: <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/Livid_Firmware_Update-1.13.app.zip">Download version <span class="version">1.13</span> </a>(<span class="comment">Mac OS X 10.6+</span>)
+        </div>
+        <div id="os_1">
+        <span class="utilname">Windows: HID Bootloader</span>: <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/HIDBootLoader_26_win.zip">Download version <span class="version">2.60</span> </a>(<span class="comment">Windows XP,7,8</span>)
+        </div>
+      <p></p>
+    <div id="fw_0"> <h3 class="type">current</h3> <p class="text"> <span class="version">1.55</span> - <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/alias_155.hex.zip">Download firmware hex file</a><br><span class="comment"></span></p></div><div id="fw_1"> <h3 class="type">aliased</h3> <p class="text"> <span class="version">1.54a</span> - <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/alias_154_aliasA.hex.zip">Download firmware hex file</a><br><span class="comment">Use Aliased firmware on one of the controllers, if you intend to use two Alias8's on a single computer.</span></p></div></div>
+      
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div>
+<!-- END FIRMWARE --></div></div>
+
+
+</body></html>

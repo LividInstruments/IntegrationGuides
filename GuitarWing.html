@@ -1,0 +1,1135 @@
+<!--for serving live, rather than as a local website, change all 'install/.*\.app\.zip' to 'install/Mac_Installers.zip' and '.exe' to '.zip' and change content/setup.html to point to http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations instead.-->
+<!--of course, you'll need to create a Mac_Installer.zip that bundles all the installers together, and create individual zips of the windows versions.-->
+
+<html><head>
+<title>Livid Guitar Wing Integration Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+	<script src="content/js/jquery-1.11.0.min.js"></script>
+  <!--<script src="content/js/libs/pure.js"></script> -->
+	<!-- <script src="content/js/osdetect.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="content/font/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="content/css/style.css">
+  
+  <!-- Magnific Popup https://github.com/dimsemenov/Magnific-Popup files and init. QUICK start: http://www.templatemonster.com/help/js-animated-how-to-implement-jquery-magnific-popup-lightbox-plugin.html-->
+  <script src="content/mag/jquery.magnific-popup.js"></script>
+  <link rel="stylesheet" href="content/mag/magnific-popup.css">
+  <!--end Magnific Popup-->
+    
+</head>
+<body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+
+<!-------------------------------MAIN SELCTIONS---------------------------------->
+<div class="centerall">
+  <div class="container" id="start">	
+  
+    <div class="bannertext" id="toptitle">Guitar Wing Integration Guide</div>
+  
+    <div class="rowreset"></div>
+    <div class="tngrid" id="productgrid"><div id="p_0" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#abletonlive">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/live_icon.png"></a><br>
+<!--END ICON CELL-->Ableton Live</div><div id="p_1" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#applelogic">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/logic_icon.png"></a><br>
+<!--END ICON CELL-->Apple Logic Pro X</div><div id="p_2" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#applemainstage">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/mainstage_icon.png"></a><br>
+<!--END ICON CELL-->Apple Main Stage</div><div id="p_3" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#bitwigstudio">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/bitwig_icon.png"></a><br>
+<!--END ICON CELL-->Bitwig Studio</div><div class="rowreset"></div><div id="p_4" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#cycling74max">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/max_icon.png"></a><br>
+<!--END ICON CELL-->Cycling '74 Max</div><div id="p_5" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#wingfx">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/wingfx_icon.png"></a><br>
+<!--END ICON CELL-->Livid WingFX</div><div id="p_6" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#niguitarrig">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/guitarrig_icon.png"></a><br>
+<!--END ICON CELL-->Native Instruments Guitar Rig</div><div id="p_7" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#nitraktor">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/traktor_icon.png"></a><br>
+<!--END ICON CELL-->Native Instruments Traktor</div><div class="rowreset"></div><div id="p_8" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#propellerheadreason">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/reason_icon.png"></a><br>
+<!--END ICON CELL-->Propellerhead Reason</div><div id="p_9" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#gwconnection">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/GW_connection.jpg"></a><br>
+<!--END ICON CELL-->Connection Guide</div><div id="p_10" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#about">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/about_icon.png"></a><br>
+<!--END ICON CELL-->About this Guide</div></div>
+  
+    <div class="productseparator"></div>
+  </div>
+<!-----------------------------------END MAIN----------------------------------->
+<div id="product_0" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/live_icon.png">
+	</div>
+	<div class="p_desc" id="abletonlive"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Ableton Live and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The Guitar Wing and Ableton Live can be used together in several creative ways. We've created some examples that show you how to make use of the Guitar Wing for recording, jamming, and playing live. Each example has a Live project, a video, and instructions to get you up and running.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Ableton Live + Guitar Wing Content installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="install/Ableton_Live_Content_Installer.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_0_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Live-Effects.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Live-Effects_tn.jpg">
+        <span class="caption">effects set for Live</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Live-Effects.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Live-Effects_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Effects Chain</h3>
+    <p class="setname">Project Name: Live Guitar Wing effects by (!)</p>
+    <p class="text">
+    You can use the Guitar Wing to select and control several effects in a Live Audio track. Once you try this set, you'll quickly see why the Wing isn't just a clever foot pedal. These effects were created by Moldover (!) a co-designer of the Guitar Wing. This Live set is pre-mapped to the guitar wing, so all you have to do is open the set, setup your MIDI prefs and audio in/out, and start playing.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#User_Maps">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_0_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Live-Script.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Live-Script_tn.jpg">
+        <span class="caption">playing with the Control Surface script</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Live-Script.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Live-Script_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Playing: the Control Surface Script</h3>
+    <p class="setname">Project Name: Scripted Live Project</p>
+    <p class="text">
+    Whether you're developing a new live act where you want instant control of backing tracks, or you're just jamming in your studio, you can use your Wing to control your sound and remix your accompaniment. This set uses a simple control surface script to launch scenes, and even navigate to other tracks. The Sliders and motion sensor are mapped to macros, the pads trigger clips, and the four buttons are used for toggling effects on and off for different guitar sounds.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_0_2"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Live-Recording.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Live-Recording_tn.jpg">
+        <span class="caption">recording tracks in Live</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Live-Recording.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Live-Recording_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Recording</h3>
+    <p class="setname">Project Name: Recording Live Project</p>
+    <p class="text">
+    The Guitar Wing isn't just a stomp box on steroids. It's also a great controller for your DAW's transport, keeping your hands on your guitar, and not on the computer. We've created a Live set to help you record new takes and new material quickly. This set overrides some of the Control Surface Script to optimize the controls for recording, overdubbing, and making comps. The Wing is mapped to controls to navigate to locations in your song in Arrangement View, add locations, and easily start and stop playback and recording. The pads, sliders, and motion are mapped to the effects in the track so you can really take advantage of the hands-on control of the Wing in your recording.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_1" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/logic_icon.png">
+	</div>
+	<div class="p_desc" id="applelogic"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Apple Logic Pro X and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Apple Logic is one of the most powerful digital audio workstations on the market. Its sophisticated workflow lets you manage multiple tracks, combine a huge variety of effects, eqs, and mastering tools makes it a popular choice for recording. To keep you working in the environment you love, we've created some great examples and a script to help you get the most out of playing and recording your guitar with your Wing in Apple's Logic.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Apple Logic + Guitar Wing Content installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	     
+	    </p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_1_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Logic-Effects.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Logic-Effects_tn.jpg">
+        <span class="caption">Control a huge variety of effects</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Logic-Pedalboard.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Logic-Pedalboard_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Creative Effects</h3>
+    <p class="setname">Project Name: Guitar Wing Project.logicx</p>
+    <p class="text">
+    This Logic project has a channel strip setup to take full advantage of the hands-on control the Wing gives you. With a large collection of effects, some creative mappings and motion control, the sky's the limit for tweaking your sound with your Wing. Great for playing Live or tweaking out a track with some truly unique sounds.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Apple_Logic">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_1_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Logic-Effects.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Logic-Effects_tn.jpg">
+        <span class="caption">Recording control</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Logic-Overdub.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Logic-Overdub_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Overdub and Get it Right</h3>
+    <p class="setname">Project Name: Overdubber Map Example</p>
+    <p class="text">
+    The Guitar Wing is a great controller for recording in Logic. Fire up this set and start making tracks without distraction. Navigate anywhere in your set, add markers, and comp your tracks to your hearts content without putting down your pick. Switch tracks, and even guitars, and stay in the flow with this MIDI map for Logic. Note: the installer will warn you that it will back up your current MIDI map settings before installing this map. If you have existing MIDI settings, you may feel secure in backing up your preferences your self by making a copy of the file ~/Library/Preferences/com.apple.logic.pro.cs</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Apple_Logic">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_2" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/mainstage_icon.png">
+	</div>
+	<div class="p_desc" id="applemainstage"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Apple Main Stage and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Main Stage is an ideal environment for exploring the full potential of Guitar Wing. With a focus on live performance, Main Stage has a huge variety of effects, amps, and cabinets all controllable with sophisticated MIDI mapping. With the Guitar Wing and Main Stage you can dial in the perfect sound and perfect control.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Apple Main Stage + Guitar Wing Content installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	     
+	    </p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_2_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/MainStage-Concert.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/MainStage-Concert_tn.jpg">
+        <span class="caption">Main Stage concert interface</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/MainStage-Pedalboard01.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/MainStage-Pedalboard01_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Main Stage Concert</h3>
+    <p class="setname">Project Name: GuitarWing.concert</p>
+    <p class="text">
+    We've provided a template to get you going with your Guitar Wing that creates a Main Stage interface for all the controls on the Guitar Wing. In the Concert, we've created a pedalboard with a lot of fun controls and a three track looper backed by a drum loop.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Apple_Main_Stage">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_3" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/bitwig_icon.png">
+	</div>
+	<div class="p_desc" id="bitwigstudio"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Bitwig Studio and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Bitwig Studio is the newest DAW on the block, and offers a lot of modulation and efficient workflow. With it's easy mapping and fantastic sounding effects, it's a great environment to get full use of your Guitar Wing</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Bitwig Studio + Guitar Wing Content installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="install/Bitwig_Studio_Content_Installer.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_3_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Bitwig-Script.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Bitwig-Script_tn.jpg">
+        <span class="caption">Bitwig control surface setup</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Bitwig-Scripted.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Bitwig-Scripted_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Control Surface Script</h3>
+    <p class="setname">Project Name: Scripted set example</p>
+    <p class="text">
+    We've created a simple script to let you trigger scenes, play with effects, and record into tracks. This script will eventually be "built-in" to Bitwig, but until then, follow the instructions in the installer to add the script to Bitwig.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Bitwig_Studio">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_3_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Bitwig-Effects.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Bitwig-Effects_tn.jpg">
+        <span class="caption">Effects in Pedalboard</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Bitwig-Pedalboard.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Bitwig-Pedalboard_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Pedalboard</h3>
+    <p class="setname">Project Name: Guitar Wing Pedalboard</p>
+    <p class="text">
+    The automapped script might be good for some needs, but we've also created a script dedicated to user maps. This pedalboard features fixed user mappings that might be preferred for many workflows and playing live. Just open up the set, load the GuitarWingUser script, and start playing.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Bitwig_Studio">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_4" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/max_icon.png">
+	</div>
+	<div class="p_desc" id="cycling74max"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Cycling '74 Max / Max for Live and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Long one of the most creative software applications, Max and Max for Live (part of Ableton Live Suite) offer a blank slate to fully explore technology and music. With an incredible variety of possibilities in Max - from video, to artificial intelligence, to custom effects- along with the unique layout and position of the Guitar Wing, we expect to see some really creative work come from this combination.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Max + Guitar Wing Content installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="install/Cycling74_Content_Installer.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_4_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Max-patch.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Max-patch_tn.jpg">
+        <span class="caption">Guitar Wing inputs and outputs in Max</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Max I/O patch</h3>
+    <p class="setname">Project Name: GuitarWing InOut.maxpat</p>
+    <p class="text">
+    To get you working in Max as quickly as possible, we've made a patch that provides all the input, output, and user-interface connections that you need to start building what you want to hear.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Cycling_.2774_Max_and_Max_for_Live">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_4_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Max-M4L.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Max-M4L_tn.jpg">
+        <span class="caption">Max for Live device for Guitar Wing</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Max For Live I/O Device and Script</h3>
+    <p class="setname">Project Name: WingDeviceExample.amxd</p>
+    <p class="text">
+    Max for Live is a special version of Max that works within Ableton Live. You could use the above patch for making Max for Live patches, but we've gone the extra step of building a special Remote Script to make it easier to get control information to and from the Wing, as well as use multiple Wing-related Max for Live patches in a single set.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Cycling_.2774_Max_and_Max_for_Live">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_5" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/wingfx_icon.png">
+	</div>
+	<div class="p_desc" id="wingfx"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Livid WingFX and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    To help you play your Guitar Wing right out of the box, we've created WingFX, a software package custom-designed for your Guitar Wing. WingFX is a cross-platform application that can be used as a standalone software or a VST/AU in your favorite DAW or plug-in host. It offers instant access to effects, filters, samples, and more, specifically matched to the unique controls on your Guitar Wing.
+</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">WingFX installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="install/Livid_WingFX_Installer.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_5_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Livid-WingFX.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Livid-WingFX_tn.jpg">
+        <span class="caption">WingFX UI</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Livid-WingFX.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Livid-WingFX_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Effects</h3>
+    <p class="setname">Project Name: Livid WingFX</p>
+    <p class="text">
+    Just open the standalone, or load the plug-in in your favorite host, and you'll be ready to play!</p>
+    
+    <p>
+    <a class="alt_a manual" href="content/wingfx_manual.html">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_6" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/guitarrig_icon.png">
+	</div>
+	<div class="p_desc" id="niguitarrig"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Native Instruments Guitar Rig and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    GuitarRig, meet Guitar Wing. Oh, you already know each other? I thought you might. One of the most popular plugins for guitarists with a digital bent, GuitarRig is begging to be played with GuitarWing's controls.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle"> NI Guitar Rig + Guitar Wing Content installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="install/NI_Guitar_Rig_Content.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_6_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/NI-GuitarRig.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/NI-GuitarRig_tn.jpg">
+        <span class="caption">Guitar Rig Rack for Guitar Wing</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/GuitarRig.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/GuitarRig_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Pedalboard</h3>
+    <p class="setname">Project Name: Livid Guitar Wing by (!).ngrr</p>
+    <p class="text">
+    This Guitar Rig set maps all the controls to a pre-defined GuitarRig rack so you can get a good idea of how you might want to start matching controls to your rig. You can use this to get started with the Guitar Wing, and edit it for your own setup, or just use it to get some ideas and make your own mappings.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Native_Instruments_Guitar_Rig">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_7" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/traktor_icon.png">
+	</div>
+	<div class="p_desc" id="nitraktor"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Native Instruments Traktor and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Seen in DJ booths worldwide, Traktor is a standard kit for mixing tracks and re-mixing beats for club DJs around the world. So what's it doing here? One of the reason we made the Guitar Wing was to join the electronic music scene with guitarists, so if we could jump start that by making the Wing seamlessly work with Traktor, we'd be sure to see something happen.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Traktor + Guitar Wing Content installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="install/NI_Traktor_Content.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_7_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/NI-Traktor.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/NI-Traktor_tn.jpg">
+        <span class="caption">Deck setup for NI Traktor and Guitar Wing</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Traktor-Loop.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Traktor-Loop_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Controller Map and Sample Setup</h3>
+    <p class="setname">Project Name: GuitarWing Tracktor.tsi</p>
+    <p class="text">
+    This .tsi file will setup maps to control the Traktor Looper, put your recorded loops into remix decks, and let you fire off sounds in the remix decks.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Native_Instruments_Traktor">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_7_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/NI-Traktor-Practice.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/NI-Traktor-Practice_tn.jpg">
+        <span class="caption">Practice setup in Traktor</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Traktor-Practice.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Traktor-Practice_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Practice</h3>
+    <p class="setname">Project Name: GuitarWing Practice Tracktor.tsi</p>
+    <p class="text">
+    Tracktor is also a great software to use to practice with tracks and learn new songs. This setup maps the wing to a variety of controls to help change tempo, key, and speed. There buttons so you can backup, and loop sections and get all the parts learned and transcribed.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Native_Instruments_Traktor">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_8" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/reason_icon.png">
+	</div>
+	<div class="p_desc" id="propellerheadreason"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Propellerhead Reason and Guitar Wing</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    One of the earliest and most successful computer music applications, Reason has a huge library of creative effects, both built-in and available in their Rack Extension store. With its emphasis on bringing the feeling of real hardware into a world-class recording environment, Reason is a natural fit for a guitarist used to pedals, amps, and rack effects. The excellent Amp and Cabinet models provided by Line 6 also give guitarists exceptional tone and bite to their tracks.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Propellerhead Reason + Guitar Wing Content installer:</span>
+	    <a class="mac" href="install/Mac_Installers.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="install/Propellerhead_Reason_Content.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_8_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Reason-Recording.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Reason-Recording_tn.jpg">
+        <span class="caption">Remote Script in Reason</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Live-Script.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Live-Script_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Remote Script</h3>
+    <p class="setname">Project Name: GuitarWing Effects</p>
+    <p class="text">
+    We've made a Remote Script to make it easy to latch your Guitar Wing's controls to anything in Reason. It also has convenient default mappings for transport, track selection, and automatic mappings for audio track Insert Effects, Line6 Amps, and Combinators to make it easy to record, control, and create several effects.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Propellerhead_Reason">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_8_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Reason-Effects.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Reason-Effects_tn.jpg">
+        <span class="caption">Control a variety of effects as a virtual pedalboard in Reason</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/Reason-Pedalboard.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/Reason-Pedalboard_tn.png"><br>
+        <span class="mapcaption">map</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Pedalboard</h3>
+    <p class="setname">Project Name: GuitarWing Effects</p>
+    <p class="text">
+    Of course, you can override the Script's maps with your own. We did just that in this example Reason set. It has several of effects lined up, ready to takeoff with your Wing, along with several creative mappings to give you the hands-on control you need.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Propellerhead_Reason">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_9" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/GW_connection.jpg">
+	</div>
+	<div class="p_desc" id="gwconnection"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Guitar Wing Connection Guide</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Simple instructions on how to connect your Guitar Wing wirelessly to your computer, tablet, or device.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    
+	    
+	     
+	     
+	    </p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_9_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/gw_step1.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/gw_step1_tn.jpg">
+        <span class="caption">step 1</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Step 1</h3>
+    
+    <p class="text">
+    Make sure the Guitar Wing is powered off and the wireless receiver is completely unplugged from your device</p>
+    
+    <p>
+    
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_9_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/gw_step2.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/gw_step2_tn.jpg">
+        <span class="caption">step 2</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Step 2</h3>
+    
+    <p class="text">
+    With your computer powered on, connect the wireless receiver to the USB port on your computer or device.</p>
+    
+    <p>
+    
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_9_2"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/gw_step3.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/gw_step3_tn.jpg">
+        <span class="caption">step 3</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Step 3</h3>
+    
+    <p class="text">
+    Within 20 seconds of plugging in the wireless USB receiver, power on the Guitar Wing using the power switch located on the side of the Guitar Wing.</p>
+    
+    <p>
+    
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_9_3"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/gw_step4.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/gw_step4_tn.jpg">
+        <span class="caption">step 4</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Step 4</h3>
+    
+    <p class="text">
+    Wait 20 more seconds for the Guitar Wing to connect to pair with the wireless receiver, launch your application and start playing.</p>
+    
+    <p>
+    
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_10" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/about_icon.png">
+	</div>
+	<div class="p_desc" id="about"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->About this Guide</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The Guitar Wing Integration Guide provides descriptions, links and how-to instructions to get you up and running with your Guitar Wing. We provide a lot of examples so you can first get familiar with the controls, then start to get really creative with how you use this new instrument. Equally at home controlling wild sounds as well as convenient controls for getting around your software, we've tried to cover all the bases with our examples.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    
+	    
+	     
+	     
+	    </p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_10_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Livid-WingFX.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Livid-WingFX_tn.jpg">
+        <span class="caption">Images on the left give you a quick glance at the project...</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/MIDI-Defaults.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/MIDI-Defaults_tn.png"><br>
+        <span class="mapcaption">...and how the Guitar Wing is mapped to the software.</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">How to use the installers.</h3>
+    <p class="setname">Project Name: The name of the example folder or file is listed in this section.</p>
+    <p class="text">
+    <p>Different web browsers will treat the links to the installers in different ways, and there's some difference in how the installers appear if you've downloaded this entire guide or are getting live on our website.</p><p>We can't actually launch the installer applications from here, so the browser will either copy the installer to your <i>Downloads</i> folder, or take you to the file on your hard drive so you can launch it. If you're reading this online, the Mac installers are downloaded as a complete package, rather than individual installers for each software title.Anyway you reach this info, you're just a click away from quickly installing the scripts and examples.</p><p>Example project files will be placed in your user's documents folder, in a folder named <i>Livid Guitar Wing</i>. Several of the installers will also install the stems of the <a href="install/ProjectFiles/Demo Song Stems/">demo song,</a> which has bass, drums, and keyboard parts conveniently broken out if you want to practice using your Wing without a lot of distraction. These stems are provided under a <a href="content/demosong_license.html"> creative commons license</a>.If there is a relevant script or file that needs to placed in a special folder, the installers will take care of that too. </p><p>In short, it's all designed to get you up an running as fast as possible. If you have any more questions, feel free to contact us at <a href="http://lividinstruments.com/helpdesk/open.php?">our support page</a></p></p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div></div>
+
+</body></html>

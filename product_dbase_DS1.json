@@ -1,0 +1,121 @@
+{
+	"products" : {
+		"0": {
+			"name": "Ableton Live 9",
+			"picon": "content/images/icons/live_icon.png",
+			"ptitle": "Live 9 and DS1",
+			"pid": "abletonlive9",
+			"ptext": "Text.",
+			"ititle": "Live 9 + DS1",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Live 9 DS1 Control Surface Script",
+					"text": "Maps the DS1 to Live 9",
+					"setname": "Livid_DS1 Remote Script",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/DS1_Live9.jpg",
+					"cap": "Live 9 and DS1",
+					"mapthumb": "content/images/maps/ds1_live_map.jpg",
+					"mapcap": "DS1 mapping"
+				}
+			}
+		},
+		"1": {
+			"name": "Bitwig Studio",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "Bitwig Studio and DS1",
+			"pid": "bitwigstudio",
+			"ptext": "Text.",
+			"ititle": "Bitwig Studio + DS1",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Bitwig Studio DS1 Control Surface Script",
+					"text": "Maps the DS1 to Bitwig Studio",
+					"setname": "Livid_DS1 Remote Script",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/DS1_bitwig.jpg",
+					"cap": "Bitwig Studio and DS1",
+					"mapthumb": "content/images/maps/ds1_bitwig_map.jpg",
+					"mapcap": "DS1 mapping"
+				}
+			}
+		},
+		"2": {
+			"name": "Apple Logic Pro X",
+			"picon": "content/images/icons/logic_icon.png",
+			"ptitle": "Logic Pro and DS1",
+			"pid": "applelogic",
+			"ptext": "Text.",
+			"ititle": "Logic Pro + DS1",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Logic Pro DS1 Control Surface Script",
+					"text": "Maps the DS1 to Logic Pro",
+					"setname": "Livid_DS1 Remote Script",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/DS1_Live9.jpg",
+					"cap": "Logic Pro and DS1",
+					"mapthumb": "content/images/maps/ds1_live_map.jpg",
+					"mapcap": "DS1 mapping"
+				}
+			}
+		},
+		"3": {
+			"name": "Propellerhead Reason",
+			"picon": "content/images/icons/reason_icon.png",
+			"ptitle": "Reason and DS1",
+			"pid": "propellerheadreason",
+			"ptext": "Text.",
+			"ititle": "Reason + DS1",
+			"ilinkmac": "https://",
+			"ilinkwin": "https://",
+			"examples": {
+				"0": {
+					"title": "Reason DS1 Control Surface Script",
+					"text": "Maps the DS1 to Reason",
+					"setname": "Livid_DS1 Remote Script",
+					"manual": "http://",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/DS1_Live9.jpg",
+					"cap": "Reason and DS1",
+					"mapthumb": "content/images/maps/ds1_live_map.jpg",
+					"mapcap": "DS1 mapping"
+				}
+			}
+		},
+		
+		"4": {
+			"name": "MIDI Settings Editor",
+			"picon": "content/images/icons/editor_icon.png",
+			"ptitle": "Livid Editor",
+			"pid": "editor",
+			"ptext": "The MIDI output and input settings for the OhmRGB can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.",
+			"ititle": "Livid Online Editor",
+			"ilinkmac": "http://www.lividserver.com/editor",
+			"ilinkwin": "",
+			"linktextalt": " Link",
+			"examples": {
+				"0": {
+					"title": "Customizing your Settings.",
+					"text": "Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the OhmRGB, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Online_Editor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/editor_ohm.png",
+					"cap": "OhmRGB Editor",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,600 @@
+<!--for serving live, rather than as a local website, change all 'install/.*\.app\.zip' to 'install/Mac_Installers.zip' and '.exe' to '.zip' and change content/setup.html to point to the wiki instead.-->
+<!--of course, you'll need to create a Mac_Installer.zip that bundles all the installers together, and create individual zips of the windows versions.-->
+
+<html><head>
+<title>Livid Integration Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+	<script src="content/js/jquery-1.11.0.min.js"></script>
+  <!--<script src="content/js/libs/pure.js"></script> -->
+	<!-- <script src="content/js/osdetect.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="content/font/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="content/css/style.css">
+  
+  <!-- Magnific Popup https://github.com/dimsemenov/Magnific-Popup files and init. QUICK start: http://www.templatemonster.com/help/js-animated-how-to-implement-jquery-magnific-popup-lightbox-plugin.html-->
+  <script src="content/mag/jquery.magnific-popup.js"></script>
+  <link rel="stylesheet" href="content/mag/magnific-popup.css">
+  <!--end Magnific Popup-->
+    
+</head>
+<body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+
+<!-------------------------------MAIN SELCTIONS---------------------------------->
+<div class="centerall">
+  <div class="container" id="start">	
+  
+    <div class="bannertext" id="toptitle">Base Integration Guide</div>
+  
+    <div class="rowreset"></div>
+    <div class="tngrid" id="productgrid"><div id="p_0" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#abletonlive9">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/live_icon.png"></a><br>
+<!--END ICON CELL-->Ableton Live 9</div><div id="p_1" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#abletonlive8">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/live8_icon.png"></a><br>
+<!--END ICON CELL-->Ableton Live 8</div><div id="p_2" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#cycling74max">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/max_icon.png"></a><br>
+<!--END ICON CELL-->Cycling '74 Max</div><div id="p_3" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#propellerheadreason">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/reason_icon.png"></a><br>
+<!--END ICON CELL-->Propellerhead Reason</div><div class="rowreset"></div><div id="p_4" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#bitwigstudio">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/bitwig_icon.png"></a><br>
+<!--END ICON CELL-->Bitwig Studio</div><div id="p_5" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#nitraktor">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/traktor_icon.png"></a><br>
+<!--END ICON CELL-->Native Instruments Traktor</div><div id="p_6" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#editor">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/editor_icon.png"></a><br>
+<!--END ICON CELL-->MIDI Settings Editor</div><div id="firmware_grid" class="software_tn"><!--BEGIN ICON CELL-->
+    <a class="gridlink" href="#firmwarediv">
+    <img width="150" height="150" border="0" alt="" class="icon" src="content/images/icons/firmware_icon.png"></a><br>
+<!--END ICON CELL-->Firmware Update</div></div>
+  
+    <div class="productseparator"></div>
+  </div>
+<!-----------------------------------END MAIN----------------------------------->
+<div id="product_0" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/live_icon.png">
+	</div>
+	<div class="p_desc" id="abletonlive9"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Ableton Live 9 and Base</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    A comprehensive script for working with all aspects of Live: clip launching, drumming, playing synths, mixing, sequencing, and controlling effects. With several modes for different tasks, you'll most likely find what you are looking for, and if you don't, the user mode allows you to customize the controls to whatever you want in Live.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Ableton Live + Base Content installer:</span>
+	    <a class="mac" href="http://lividinstruments.com/dl/LividLive9_RemoteScripts.dmg">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="http://lividinstruments.com/dl/LividLive9_RemoteScripts.exe">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_0_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/live9_base.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/live9_base_tn.jpg">
+        <span class="caption">Remote Script </span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/live9_map.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/live9_map_tn.jpg"><br>
+        <span class="mapcaption">map example - see wiki for more</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Remote Script</h3>
+    
+    <p class="text">
+    The Remote Script for Live 9 provides comprehensive control over clip launching, effects, sends and returns, mixing, sequencing, and much more. Mapped to drum racks, the Base provides an intuitive interface for playing and sequencing. Mapped to synths, the Base can act as a modifiable keyboard allowing you to map notes and keys in any number of scales and octaves. Our wiki provides comprehensive documentation and video tutorials so you can get exactly what you want from playing the Base in Live.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Base_Ableton_Live_Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/uZ5hk90PziU?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_1" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/live8_icon.png">
+	</div>
+	<div class="p_desc" id="abletonlive8"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Ableton Live 8 and Base</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The Base works with Live 8 with a comprehensive script for working with all aspects of Live: clip launching, drumming, playing synths, mixing, and controlling effects. </p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Ableton Live 8 + Base script download:</span>
+	    <a class="mac" href="http://lividinstruments.com/dl/Base_Live8Remote.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="http://lividinstruments.com/dl/Base_Live8Remote.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_1_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/live8_base.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/live8_base_tn.jpg">
+        <span class="caption">Remote Script </span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/live8_map.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/live8_map_tn.jpg"><br>
+        <span class="mapcaption">map example - see wiki for more</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Remote Script</h3>
+    
+    <p class="text">
+    For those still working in Live 8, the Base offers the most comprehensive, playable solution for synths, drums, effects, and clip launching. The mapping is similar to the Live 9 maps, but does not include the sequencing.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Base_Ableton_Live_Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_2" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/max_icon.png">
+	</div>
+	<div class="p_desc" id="cycling74max"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Cycling '74 Max / Max for Live and Base</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Like all Livid Controllers, there's a lot of possibility with the minimal interface and the open world of Max 6.  With the simple examples below, you'll be building patches and devices around your Base in no time.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Cycling74 + Base patches download:</span>
+	    <a class="mac" href="http://lividinstruments.com/dl/Cycling74Max_Base.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="http://lividinstruments.com/dl/Cycling74Max_Base.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_2_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/Base_M4Ldevice.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/Base_M4Ldevice_tn.jpg">
+        <span class="caption">Example Max For Live Device for Base, linked to script</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Max for Live device and script</h3>
+    <p class="setname">Project Name: Base DeviceExample.amxd</p>
+    <p class="text">
+    We've created a simple Ableton Live Remote Script and example Max for Live device that makes it easy to start building instrument modules that work seamlessly with the Livid Base in Max for Live.  Be sure to install the Live 9 Remote Scripts for the Base_M4L Remote Script! When you install, make sure the Base DeviceExample.amxd and LividBaseHub.js are in your Max search path.</p>
+    
+    <p>
+    
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_2_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/base_maxpatch.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/base_maxpatch_tn.jpg">
+        <span class="caption">Max patch for Base</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Base InOut patch</h3>
+    <p class="setname">Project Name: Base InOut.maxpat</p>
+    <p class="text">
+    For Max users, there's a patch that parses MIDI for input from and output to the Base. This makes easy to control your patch from the Base, as well as keep the Base LEDs in sync with the Max UI.</p>
+    
+    <p>
+    
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_3" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/reason_icon.png">
+	</div>
+	<div class="p_desc" id="propellerheadreason"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Reason and Base</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Propellerhead's Reason is a legendary environment for synths, sampling, sequencing, and recording. Unique in the DAW marketplace, it's high quality devices and sounds are a producer's dream. The Livid Base brings some long-needed, comprehensive hands-on control to playing and controlling the effects and synths in Reason. </p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Reason + Base scripts on github:</span>
+	    <a class="mac" href="https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="https://github.com/LividInstruments/ReasonRemoteScripts/archive/master.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_3_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/reasonremote.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/reasonremote_tn.jpg">
+        <span class="caption">Remote Script for Reason</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/reasonremote_map.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/reasonremote_map_tn.jpg"><br>
+        <span class="mapcaption">Example mapping for Base and Reason.</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Reason Remote for Base</h3>
+    <p class="setname">Project Name: Base DeviceExample.amxd</p>
+    <p class="text">
+    With the ability to choose from several scales and octaves, and a clever scheme to fix scales to certain devices, the Base brings a whole new level of play to Reason. This script also automatically detects the presence of Kong devices, so the pads will adjust to play Kong devices. You can even load 2 Kongs in a Combinator. See the wiki manual for more information. Although the Base Reason Remote script is automatically bundled with Reason 7, you may need to download and install the scripts from github to update.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Base_Reason_Remote_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/e4svKBvzHlw?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_4" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/bitwig_icon.png">
+	</div>
+	<div class="p_desc" id="bitwigstudio"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Bitwig Studio and Base</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Bitwig Studio offers a streamlined workflow, infinite modulation possibilities, and a terrific controller integration engine. We've run with that and created a sophisticated script for Bitwig for sequencing, playing, and tweaking your mix. Bitwig Studio comes with the Base script embedded, however, you may need to download the latest from GitHub if there is a script update before there is a new release of Bitwig Studio.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Bitwig Studio + Livid Base github download:</span>
+	    <a class="mac" href="https://github.com/LividInstruments/Bitwig/archive/master.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="https://github.com/LividInstruments/Bitwig/archive/master.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_4_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/base_bitwig.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/base_bitwig_tn.jpg">
+        <span class="caption">Controlling Bitwig with the Base</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/base_bitwig_map.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/base_bitwig_map_tn.jpg"><br>
+        <span class="mapcaption">map example - see wiki for more</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Control Surface Script</h3>
+    
+    <p class="text">
+    The Control Surface script for Base and Bitwig Studio is a gold standard of integration and sophistication. With access to clip launching, devices, mixing, and sequencing, the Base offers a huge amount of control and playability for your tracks.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Base_Bitwig_Control_Script">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/694pfJpPwT8?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_5" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/traktor_icon.png">
+	</div>
+	<div class="p_desc" id="nitraktor"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->NI Traktor and Base</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    Native Instrument's Traktor DJ software takes the concept of making music with two turntables and expands it to infinity. With multiple decks of multiple types, and a huge library of effects, Traktor needs an innovative controller to get the most out of the software.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">NI Traktor + Livid Base tsi download:</span>
+	    <a class="mac" href="http://lividinstruments.com/dl/LividBase_Traktor_TC.zip">Mac OS X</a> 
+	    <span class="sep">|</span> 
+	    <a class="win" href="http://lividinstruments.com/dl/LividBase_Traktor_TC.zip">Windows</a></p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_5_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/base_traktor_cap.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/base_traktor_cap_tn.jpg">
+        <span class="caption">Controlling Traktor with the Base</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/base_traktor_map.png">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/base_traktor_map_tn.png"><br>
+        <span class="mapcaption">map example - see wiki for more</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Traktor Total Control</h3>
+    <p class="setname">Project Name: LividBase_Traktor_TC.tsi</p>
+    <p class="text">
+    This .tsi file provides a complete mapping for controlling two or four decks, effects, and remix slots using different modes. However you like to break it down, there's a mode for you. This comes with a Livid Editor Preset file (.json) that you can load with our <a href="http://www.lividserver.com/editor">online editor</a> to change the settings as needed.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Base_Traktor">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div id="example_5_1"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/base_traktor_ultimate.jpg">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/base_traktor_ultimate_tn.jpg">
+        <span class="caption">Ultimate Tool for Base</span>
+      </a>
+      </div>
+      <div class="mapthumb">
+      <a class="image-popup-vertical-fit maptnlink" title="" href="content/images/maps/base_traktor_ultimate.jpg">
+        <img width="150" height="77" alt="" class="maptnimg" src="content/images/maps/base_traktor_ultimate_tn.jpg"><br>
+        <span class="mapcaption">map example - see wiki for more</span>
+      </a>
+      </div>
+    </div>
+    <div class="content">
+	  <h3 class="title">Traktor Ultimate Tool for Base</h3>
+    <p class="setname">Project Name: BASE advanced mapping 0.1.0.tsi</p>
+    <p class="text">
+    This .tsi file by Traktor super-user Stewe will split your BASE controller in to two sections: Transport and FX Engine. Find out more at <a href="http://forum.djtechtools.com/showthread.php?t=76386&amp;p=655176#post655176"> the DJ Tech Tools Forum </a></p>
+    
+    <p>
+    <a class="alt_a manual" href="https://maps.djtechtools.com/mappings/2042">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    <iframe width="640" height="360" class="youtube" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/kAWZLLAUvjU?rel=0&amp;autoplay=0&amp;&amp;origin=http://lividinstruments.com"></iframe>
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="product_6" class="container"><!-----------------------------------PRODUCT----------------------------------->
+  <!--TITLE-->
+	<div class="left-column">
+		<!--product icon-->
+		<img width="150" height="150" alt="" class="prodicon" src="content/images/icons/editor_icon.png">
+	</div>
+	<div class="p_desc" id="editor"><!-- id (anchorname)-->
+	  <h2 class="p_title"><!-- title -->Livid Editor</h2>
+	  <!--product description text-->
+    <p class="p_text">
+    The MIDI output and input settings for the Base can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.</p>
+	</div>
+	<div class="fullwidthseparator">
+	</div>
+		
+	<div class="installer"><p>
+	    <!--installer-->
+	    <img src="content/images/download.svg" width="25" height="25" alt="" class="dl">
+	    <span class="installtitle">Livid Online Editor</span>
+	    <a class="mac" href="http://www.lividserver.com/editor"> Link</a> 
+	     
+	    </p>
+	</div>
+<!-----------------------------------END PRODUCT----------------------------------->
+
+	<!--EXAMPLE(s) FOLLOW-->
+	
+<div id="example_6_0"><!-- BEGIN EXAMPLE -->
+    <div class="left-column">
+      <div class="leftthumb">
+      <a class="image-popup-vertical-fit lefttnlink" title="" href="content/images/screencaps/editor_base.png">
+        <img width="150" height="150" alt="" class="lefttnimg" src="content/images/screencaps/editor_base_tn.png">
+        <span class="caption">Base Editor</span>
+      </a>
+      </div>
+      
+    </div>
+    <div class="content">
+	  <h3 class="title">Customizing your Settings.</h3>
+    
+    <p class="text">
+    Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the Base, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.</p>
+    
+    <p>
+    <a class="alt_a manual" href="http://wiki.lividinstruments.com/wiki/Online_Editor">Instructions and Details</a>
+    </p>
+    
+<!--     <video width="400" height="255" controls> -->
+<!--     <source src="http://lividinstruments.com/temp/movie.mov" type="video/mp4"> -->
+<!--     </video> -->
+<!--     <a href="https://www.youtube.com/watch?YOUTUBECODE">...or watch on youtube</a> -->
+<!--     <h5>(internet connection required for video)</h5> -->
+<!--src="//www.youtube.com/embed/MF-Tl_vEYNQ?rel=0"-->
+
+    
+
+    </div>  
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div> 
+<!-- END EXAMPLE --></div><div class="productseparator"></div></div><div id="firmwarediv" class="container"><!-- BEGIN FIRMWARE -->
+    <div class="left-column">
+		<!--firmware icon-->
+      <img width="150" height="150" alt="" class="prodicon" src="content/images/icons/firmware_icon.png">
+    </div>
+    <div class="content" id="firmware">
+      <h2 class="p_title">Firmware</h2>
+      <!--product description text-->
+      <p class="p_text">
+        Firmware can be updated using the Firmware Update software tools for Mac and Windows. 
+        Complete instructions are <a href="http://wiki.lividinstruments.com/wiki/Updating_Your_Firmware">on our wiki</a>.
+        <!--fill in info from firmware.json-->
+        </p><div id="os_0">
+        <span class="utilname">OSX: Livid Firmware Update</span>: <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/Livid_Firmware_Update-1.13.app.zip">Download version <span class="version">1.13</span> </a>(<span class="comment">Mac OS X 10.6+</span>)
+        </div>
+        <div id="os_1">
+        <span class="utilname">Windows: HID Bootloader</span>: <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/HIDBootLoader_26_win.zip">Download version <span class="version">2.60</span> </a>(<span class="comment">Windows XP,7,8</span>)
+        </div>
+      <p></p>
+    <div id="fw_0"> <h3 class="type">current</h3> <p class="text"> <span class="version">1.52</span> - <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/base_152_rgb1.hex.zip">Download firmware hex file</a><br><span class="comment"></span></p></div><div id="fw_1"> <h3 class="type">alternate</h3> <p class="text"> <span class="version">1.52br</span> - <a class="alt_a link" href="http://www.lividinstruments.com/dl/firmware/base_152_rgb1.hex.zip">Download firmware hex file</a><br><span class="comment">Early Base controllers were equipped with different RGB LEDs. If your Red and Blue LEDs are reversed with the current firmware, use this alternate firmware.</span></p></div></div>
+      
+    <div class="contentspacer">
+      <div class="fullwidthseparator"></div>
+    </div>
+<!-- END FIRMWARE --></div></div>
+
+</body></html>

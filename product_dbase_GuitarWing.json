@@ -1,0 +1,367 @@
+{
+	"products" : {
+		"0": {
+		  "name": "Ableton Live",
+			"picon": "content/images/icons/live_icon.png",
+			"ptitle": "Ableton Live and Guitar Wing",
+			"pid": "abletonlive",
+			"ptext": "The Guitar Wing and Ableton Live can be used together in several creative ways. We've created some examples that show you how to make use of the Guitar Wing for recording, jamming, and playing live. Each example has a Live project, a video, and instructions to get you up and running.",
+			"ititle": "Ableton Live + Guitar Wing Content installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "install/Ableton_Live_Content_Installer.zip",
+			"examples": {
+				"0": {
+					"title": "Effects Chain",
+					"text": "You can use the Guitar Wing to select and control several effects in a Live Audio track. Once you try this set, you'll quickly see why the Wing isn't just a clever foot pedal. These effects were created by Moldover (!) a co-designer of the Guitar Wing. This Live set is pre-mapped to the guitar wing, so all you have to do is open the set, setup your MIDI prefs and audio in/out, and start playing.",
+					"setname": "Live Guitar Wing effects by (!)",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#User_Maps",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Live-Effects.jpg",
+					"cap": "effects set for Live",
+					"mapthumb": "content/images/maps/Live-Effects.png",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Playing: the Control Surface Script",
+					"text": "Whether you're developing a new live act where you want instant control of backing tracks, or you're just jamming in your studio, you can use your Wing to control your sound and remix your accompaniment. This set uses a simple control surface script to launch scenes, and even navigate to other tracks. The Sliders and motion sensor are mapped to macros, the pads trigger clips, and the four buttons are used for toggling effects on and off for different guitar sounds.",
+					"setname": "Scripted Live Project",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Remote_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Live-Script.jpg",
+					"cap": "playing with the Control Surface script",
+					"mapthumb": "content/images/maps/Live-Script.png",
+					"mapcap": "map"
+				},
+				"2": {
+					"title": "Recording",
+					"text": "The Guitar Wing isn't just a stomp box on steroids. It's also a great controller for your DAW's transport, keeping your hands on your guitar, and not on the computer. We've created a Live set to help you record new takes and new material quickly. This set overrides some of the Control Surface Script to optimize the controls for recording, overdubbing, and making comps. The Wing is mapped to controls to navigate to locations in your song in Arrangement View, add locations, and easily start and stop playback and recording. The pads, sliders, and motion are mapped to the effects in the track so you can really take advantage of the hands-on control of the Wing in your recording.",
+					"setname": "Recording Live Project",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Remote_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Live-Recording.jpg",
+					"cap": "recording tracks in Live",
+					"mapthumb": "content/images/maps/Live-Recording.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"1": {
+		  "name": "Apple Logic Pro X",
+			"picon": "content/images/icons/logic_icon.png",
+			"ptitle": "Apple Logic Pro X and Guitar Wing",
+			"pid": "applelogic",
+			"ptext": "Apple Logic is one of the most powerful digital audio workstations on the market. Its sophisticated workflow lets you manage multiple tracks, combine a huge variety of effects, eqs, and mastering tools makes it a popular choice for recording. To keep you working in the environment you love, we've created some great examples and a script to help you get the most out of playing and recording your guitar with your Wing in Apple's Logic.",
+			"ititle": "Apple Logic + Guitar Wing Content installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "",
+			"examples": {
+				"0": {
+					"title": "Creative Effects",
+					"text": "This Logic project has a channel strip setup to take full advantage of the hands-on control the Wing gives you. With a large collection of effects, some creative mappings and motion control, the sky's the limit for tweaking your sound with your Wing. Great for playing Live or tweaking out a track with some truly unique sounds.",
+					"setname": "Guitar Wing Project.logicx",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Apple_Logic",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Logic-Effects.jpg",
+					"cap": "Control a huge variety of effects",
+					"mapthumb": "content/images/maps/Logic-Pedalboard.png",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Overdub and Get it Right",
+					"text": "The Guitar Wing is a great controller for recording in Logic. Fire up this set and start making tracks without distraction. Navigate anywhere in your set, add markers, and comp your tracks to your hearts content without putting down your pick. Switch tracks, and even guitars, and stay in the flow with this MIDI map for Logic. Note: the installer will warn you that it will back up your current MIDI map settings before installing this map. If you have existing MIDI settings, you may feel secure in backing up your preferences your self by making a copy of the file ~/Library/Preferences/com.apple.logic.pro.cs",
+					"setname": "Overdubber Map Example",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Apple_Logic",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Logic-Effects.jpg",
+					"cap": "Recording control",
+					"mapthumb": "content/images/maps/Logic-Overdub.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"2": {
+		  "name": "Apple Main Stage",
+			"picon": "content/images/icons/mainstage_icon.png",
+			"ptitle": "Apple Main Stage and Guitar Wing",
+			"pid": "applemainstage",
+			"ptext": "Main Stage is an ideal environment for exploring the full potential of Guitar Wing. With a focus on live performance, Main Stage has a huge variety of effects, amps, and cabinets all controllable with sophisticated MIDI mapping. With the Guitar Wing and Main Stage you can dial in the perfect sound and perfect control.",
+			"ititle": "Apple Main Stage + Guitar Wing Content installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "",
+			"examples": {
+				"0": {
+					"title": "Main Stage Concert",
+					"text": "We've provided a template to get you going with your Guitar Wing that creates a Main Stage interface for all the controls on the Guitar Wing. In the Concert, we've created a pedalboard with a lot of fun controls and a three track looper backed by a drum loop.",
+					"setname": "GuitarWing.concert",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Apple_Main_Stage",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/MainStage-Concert.jpg",
+					"cap": "Main Stage concert interface",
+					"mapthumb": "content/images/maps/MainStage-Pedalboard01.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"3": {
+		  "name": "Bitwig Studio",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "Bitwig Studio and Guitar Wing",
+			"pid": "bitwigstudio",
+			"ptext": "Bitwig Studio is the newest DAW on the block, and offers a lot of modulation and efficient workflow. With it's easy mapping and fantastic sounding effects, it's a great environment to get full use of your Guitar Wing",
+			"ititle": "Bitwig Studio + Guitar Wing Content installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "install/Bitwig_Studio_Content_Installer.zip",
+			"examples": {
+				"0": {
+					"title": "Control Surface Script",
+					"text": "We've created a simple script to let you trigger scenes, play with effects, and record into tracks. This script will eventually be \"built-in\" to Bitwig, but until then, follow the instructions in the installer to add the script to Bitwig.",
+					"setname": "Scripted set example",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Bitwig_Studio",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Bitwig-Script.jpg",
+					"cap": "Bitwig control surface setup",
+					"mapthumb": "content/images/maps/Bitwig-Scripted.png",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Pedalboard",
+					"text": "The automapped script might be good for some needs, but we've also created a script dedicated to user maps. This pedalboard features fixed user mappings that might be preferred for many workflows and playing live. Just open up the set, load the GuitarWingUser script, and start playing.",
+					"setname": "Guitar Wing Pedalboard",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Bitwig_Studio",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Bitwig-Effects.jpg",
+					"cap": "Effects in Pedalboard",
+					"mapthumb": "content/images/maps/Bitwig-Pedalboard.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"4": {
+		  "name": "Cycling '74 Max",
+			"picon": "content/images/icons/max_icon.png",
+			"ptitle": "Cycling '74 Max / Max for Live and Guitar Wing",
+			"pid": "cycling74max",
+			"ptext": "Long one of the most creative software applications, Max and Max for Live (part of Ableton Live Suite) offer a blank slate to fully explore technology and music. With an incredible variety of possibilities in Max - from video, to artificial intelligence, to custom effects- along with the unique layout and position of the Guitar Wing, we expect to see some really creative work come from this combination.",
+			"ititle": "Max + Guitar Wing Content installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "install/Cycling74_Content_Installer.zip",
+			"examples": {
+				"0": {
+					"title": "Max I/O patch",
+					"text": "To get you working in Max as quickly as possible, we've made a patch that provides all the input, output, and user-interface connections that you need to start building what you want to hear.",
+					"setname": "GuitarWing InOut.maxpat",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Cycling_.2774_Max_and_Max_for_Live",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Max-patch.jpg",
+					"cap": "Guitar Wing inputs and outputs in Max",
+					"mapthumb": "",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Max For Live I/O Device and Script",
+					"text": "Max for Live is a special version of Max that works within Ableton Live. You could use the above patch for making Max for Live patches, but we've gone the extra step of building a special Remote Script to make it easier to get control information to and from the Wing, as well as use multiple Wing-related Max for Live patches in a single set.",
+					"setname": "WingDeviceExample.amxd",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Cycling_.2774_Max_and_Max_for_Live",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Max-M4L.jpg",
+					"cap": "Max for Live device for Guitar Wing",
+					"mapthumb": "",
+					"mapcap": "map"
+				}
+			}
+		},
+		"5": {
+		  "name": "Livid WingFX",
+			"picon": "content/images/icons/wingfx_icon.png",
+			"ptitle": "Livid WingFX and Guitar Wing",
+			"pid": "wingfx",
+			"ptext": "To help you play your Guitar Wing right out of the box, we've created WingFX, a software package custom-designed for your Guitar Wing. WingFX is a cross-platform application that can be used as a standalone software or a VST/AU in your favorite DAW or plug-in host. It offers instant access to effects, filters, samples, and more, specifically matched to the unique controls on your Guitar Wing.\n",
+			"ititle": "WingFX installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "install/Livid_WingFX_Installer.zip",
+			"examples": {
+				"0": {
+					"title": "Effects",
+					"text": "Just open the standalone, or load the plug-in in your favorite host, and you'll be ready to play!",
+					"setname": "Livid WingFX",
+					"manual": "content/wingfx_manual.html",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Livid-WingFX.jpg",
+					"cap": "WingFX UI",
+					"mapthumb": "content/images/maps/Livid-WingFX.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"6": {
+		  "name": "Native Instruments Guitar Rig",
+			"picon": "content/images/icons/guitarrig_icon.png",
+			"ptitle": "Native Instruments Guitar Rig and Guitar Wing",
+			"pid": "niguitarrig",
+			"ptext": "GuitarRig, meet Guitar Wing. Oh, you already know each other? I thought you might. One of the most popular plugins for guitarists with a digital bent, GuitarRig is begging to be played with GuitarWing's controls.",
+			"ititle": " NI Guitar Rig + Guitar Wing Content installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "install/NI_Guitar_Rig_Content.zip",
+			"examples": {
+				"0": {
+					"title": "Pedalboard",
+					"text": "This Guitar Rig set maps all the controls to a pre-defined GuitarRig rack so you can get a good idea of how you might want to start matching controls to your rig. You can use this to get started with the Guitar Wing, and edit it for your own setup, or just use it to get some ideas and make your own mappings.",
+					"setname": "Livid Guitar Wing by (!).ngrr",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Native_Instruments_Guitar_Rig",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/NI-GuitarRig.jpg",
+					"cap": "Guitar Rig Rack for Guitar Wing",
+					"mapthumb": "content/images/maps/GuitarRig.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"7": {
+		  "name": "Native Instruments Traktor",
+			"picon": "content/images/icons/traktor_icon.png",
+			"ptitle": "Native Instruments Traktor and Guitar Wing",
+			"pid": "nitraktor",
+			"ptext": "Seen in DJ booths worldwide, Traktor is a standard kit for mixing tracks and re-mixing beats for club DJs around the world. So what's it doing here? One of the reason we made the Guitar Wing was to join the electronic music scene with guitarists, so if we could jump start that by making the Wing seamlessly work with Traktor, we'd be sure to see something happen.",
+			"ititle": "Traktor + Guitar Wing Content installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "install/NI_Traktor_Content.zip",
+			"examples": {
+				"0": {
+					"title": "Controller Map and Sample Setup",
+					"text": "This .tsi file will setup maps to control the Traktor Looper, put your recorded loops into remix decks, and let you fire off sounds in the remix decks.",
+					"setname": "GuitarWing Tracktor.tsi",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Native_Instruments_Traktor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/NI-Traktor.jpg",
+					"cap": "Deck setup for NI Traktor and Guitar Wing",
+					"mapthumb": "content/images/maps/Traktor-Loop.png",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Practice",
+					"text": "Tracktor is also a great software to use to practice with tracks and learn new songs. This setup maps the wing to a variety of controls to help change tempo, key, and speed. There buttons so you can backup, and loop sections and get all the parts learned and transcribed.",
+					"setname": "GuitarWing Practice Tracktor.tsi",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Native_Instruments_Traktor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/NI-Traktor-Practice.jpg",
+					"cap": "Practice setup in Traktor",
+					"mapthumb": "content/images/maps/Traktor-Practice.png",
+					"mapcap": "map"
+				}
+			}
+		},
+		"8": {
+		  "name": "Propellerhead Reason",
+			"picon": "content/images/icons/reason_icon.png",
+			"ptitle": "Propellerhead Reason and Guitar Wing",
+			"pid": "propellerheadreason",
+			"ptext": "One of the earliest and most successful computer music applications, Reason has a huge library of creative effects, both built-in and available in their Rack Extension store. With its emphasis on bringing the feeling of real hardware into a world-class recording environment, Reason is a natural fit for a guitarist used to pedals, amps, and rack effects. The excellent Amp and Cabinet models provided by Line 6 also give guitarists exceptional tone and bite to their tracks.",
+			"ititle": "Propellerhead Reason + Guitar Wing Content installer:",
+			"ilinkmac": "install/Mac_Installers.zip",
+			"ilinkwin": "install/Propellerhead_Reason_Content.zip",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "We've made a Remote Script to make it easy to latch your Guitar Wing's controls to anything in Reason. It also has convenient default mappings for transport, track selection, and automatic mappings for audio track Insert Effects, Line6 Amps, and Combinators to make it easy to record, control, and create several effects.",
+					"setname": "GuitarWing Effects",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Propellerhead_Reason",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Reason-Recording.jpg",
+					"cap": "Remote Script in Reason",
+					"mapthumb": "content/images/maps/Live-Script.png",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Pedalboard",
+					"text": "Of course, you can override the Script's maps with your own. We did just that in this example Reason set. It has several of effects lined up, ready to takeoff with your Wing, along with several creative mappings to give you the hands-on control you need.",
+					"setname": "GuitarWing Effects",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations#Propellerhead_Reason",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Reason-Effects.jpg",
+					"cap": "Control a variety of effects as a virtual pedalboard in Reason",
+					"mapthumb": "content/images/maps/Reason-Pedalboard.png",
+					"mapcap": "map"
+				}
+			}
+		},
+    "9": {
+      "name": "Connection Guide",
+      "picon": "content/images/icons/GW_connection.jpg",
+      "ptitle": "Guitar Wing Connection Guide",
+      "pid": "gwconnection",
+      "ptext": "Simple instructions on how to connect your Guitar Wing wirelessly to your computer, tablet, or device.",
+      "ititle": "",
+      "ilinkmac": "",
+      "ilinkwin": "",
+      "examples": {
+        "0": {
+					"title": "Step 1",
+					"text": "Make sure the Guitar Wing is powered off and the wireless receiver is completely unplugged from your device",
+					"setname": "",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/gw_step1.jpg",
+					"cap": "step 1",
+					"mapthumb": "",
+					"mapcap": ""
+				},
+				"1": {
+					"title": "Step 2",
+					"text": "With your computer powered on, connect the wireless receiver to the USB port on your computer or device.",
+					"setname": "",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/gw_step2.jpg",
+					"cap": "step 2",
+					"mapthumb": "",
+					"mapcap": ""
+				},
+				"2": {
+					"title": "Step 3",
+					"text": "Within 20 seconds of plugging in the wireless USB receiver, power on the Guitar Wing using the power switch located on the side of the Guitar Wing.",
+					"setname": "",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/gw_step3.jpg",
+					"cap": "step 3",
+					"mapthumb": "",
+					"mapcap": ""
+				},
+				"3": {
+					"title": "Step 4",
+					"text": "Wait 20 more seconds for the Guitar Wing to connect to pair with the wireless receiver, launch your application and start playing.",
+					"setname": "",
+					"manual": "",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/gw_step4.jpg",
+					"cap": "step 4",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+      }
+    },
+    "10": {
+		  "name": "About this Guide",
+			"picon": "content/images/icons/about_icon.png",
+			"ptitle": "About this Guide",
+			"pid": "about",
+			"ptext": "The Guitar Wing Integration Guide provides descriptions, links and how-to instructions to get you up and running with your Guitar Wing. We provide a lot of examples so you can first get familiar with the controls, then start to get really creative with how you use this new instrument. Equally at home controlling wild sounds as well as convenient controls for getting around your software, we've tried to cover all the bases with our examples.",
+			"ititle": "",
+			"ilinkmac": "",
+			"ilinkwin": "",
+			"examples": {
+				"0": {
+					"title": "How to use the installers.",
+					"text": "<p>Different web browsers will treat the links to the installers in different ways, and there's some difference in how the installers appear if you've downloaded this entire guide or are getting live on our website.</p><p>We can't actually launch the installer applications from here, so the browser will either copy the installer to your <i>Downloads</i> folder, or take you to the file on your hard drive so you can launch it. If you're reading this online, the Mac installers are downloaded as a complete package, rather than individual installers for each software title.Anyway you reach this info, you're just a click away from quickly installing the scripts and examples.</p><p>Example project files will be placed in your user's documents folder, in a folder named <i>Livid Guitar Wing</i>. Several of the installers will also install the stems of the <a href='install/ProjectFiles/Demo Song Stems/'>demo song,</a> which has bass, drums, and keyboard parts conveniently broken out if you want to practice using your Wing without a lot of distraction. These stems are provided under a <a href='content/demosong_license.html'> creative commons license</a>.If there is a relevant script or file that needs to placed in a special folder, the installers will take care of that too. </p><p>In short, it's all designed to get you up an running as fast as possible. If you have any more questions, feel free to contact us at <a href='http://lividinstruments.com/helpdesk/open.php?'>our support page</a></p>",
+					"setname": "The name of the example folder or file is listed in this section.",
+					"manual": "http://wiki.lividinstruments.com/wiki/Guitar_Wing_Software_Configurations",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/Livid-WingFX.jpg",
+					"cap": "Images on the left give you a quick glance at the project...",
+					"mapthumb": "content/images/maps/MIDI-Defaults.png",
+					"mapcap": "...and how the Guitar Wing is mapped to the software."
+				}
+			}
+		}
+	}
+}

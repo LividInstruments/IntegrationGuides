@@ -1,0 +1,237 @@
+
+body {
+   font-family: ralewayregular,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 1em;
+}
+a {
+   font-family: ralewayregular,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   color: rgb(74, 130, 77);
+   text-decoration:none;
+}
+
+p {
+   font-family: ralewayregular,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 1em;
+   margin: 0.5em;
+   margin-left: 0.3em;
+   padding: 0;
+}
+
+h1 {
+   font-family: ralewayregular,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 1em;
+   margin: 0.5em;
+   margin-left: 0.3em;
+   padding: 0;
+}
+h2 {
+   font-family: ralewayextrabold,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 1.6em;
+   margin: 0.4em;
+   margin-left: 0.1em;
+}
+h3 {
+   font-family: ralewaybold,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 1.3em;
+   margin: 0.3em;
+   margin-left: 0.1em;
+}
+h4 {
+   font-family: ralewaylight,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 1.2em;
+   margin: 0.3em;
+   margin-left: 0.1em;
+}
+h5 {
+   font-family: ralewayregular,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 0.7em;
+   margin: 0.1em;
+   margin-left: 0.3em;
+   color: rgb(180 ,180, 180);
+}
+.utilname {
+  font-family: ralewaymedium,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.version {
+  font-family: ralewaybold,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.setname {
+   font-family: ralewayregular,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 0.9em;
+   margin: 0.15em;
+   margin-left: 1em;
+   color: rgb(90 ,90, 90);
+   font-style: italic;
+}
+video {
+  display: block;
+	margin-bottom: 0.5em;
+}
+/*
+div {
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
+}
+*/
+
+.installer {
+	text-align:center;
+	vertical-align:top;
+	clear:left;
+}
+
+.installer a{
+   font-family: ralewaybold,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   color: rgb(100 ,155, 100);
+}
+.installer p{
+   font-family: ralewaybold,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 1.3em;
+   color: rgb(45, 65, 125);
+}
+
+.alt_a{
+   color: rgb(100 ,155, 100);
+}
+
+.inlineimg {
+  margin: 0.5em;
+}
+
+.software_tn {
+	width:25%;
+	text-align:center;
+	float:left;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.rowreset {
+	width:100%;
+	clear:left;
+}
+
+.headertext {
+  width:80%;
+	clear:left;
+	margin:auto;
+	margin-bottom: 0.5em;
+	height: 1.5em;
+	text-align:center;
+	vertical-align:top;
+}
+
+.container {
+  max-width: 850px;
+	margin: auto;
+	margin-top: 1em;
+}
+
+.product-description {
+	width:75%;
+	text-align:left;
+	vertical-align:top;
+	float:left;
+	margin-bottom: 0.5em;
+}
+
+.fullwidthseparator {
+	width:90%;
+	clear:left;
+	margin:auto;
+	margin-bottom: 0.5em;
+	height: 0.08em;
+	background: rgb(160, 160, 160);
+}
+
+.productseparator {
+	width:100%;
+	clear:left;
+	margin:auto;
+	margin-bottom: 3em;
+	height: 0.5em;
+	background: rgb(80, 80, 80);
+}
+
+.contentspacer {
+	width:80%;
+	clear:left;
+	margin-left:auto;
+	margin-right:0.1%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	height: 0.2em;
+}
+
+.banner {
+  float:left;
+	text-align:center;
+	width:100%;
+	margin:auto;
+	background: rgb(0, 0, 0);
+}
+.bannertext {
+  clear:left;
+  float:left;
+	text-align:center;
+	width:100%;
+	font-family: ralewaybold,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 1.8em;
+  margin-bottom: 0.2em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-top: .3em;
+  padding-bottom: .3em;
+  color: white;
+  background: black;
+}
+
+.left-column {
+	width:20%;
+	text-align:center;
+	float:left;
+	padding-right: 2%;
+	margin-bottom: 0.5em;
+}
+.left-column img{
+	margin-bottom: 0.1em;
+}
+.leftthumb{
+	margin-bottom: 1em;
+}
+.leftthumb img{
+  border-style: solid;
+  border-color: rgb(160, 160, 160);
+  border-width: 0.1em;
+  margin-bottom: 0.2em;
+}
+.mapthumb{
+	margin-bottom: 1em;
+}
+.mapthumb img{
+  border-style: solid;
+  border-color: rgb(160, 160, 160);
+  border-width: 0.1em;
+  margin-bottom: 0.2em;
+}
+
+.content {
+	width:75%;
+	text-align:left;
+	vertical-align:top;
+	float:left;
+	padding-left: 2%;
+	margin:auto;
+	margin-bottom: 0.5em;
+	clear:right;
+}
+
+.tngrid{
+  width: 85%;
+  margin:auto;
+}
+.centerall {
+  width:100%;
+}

@@ -1,0 +1,187 @@
+{
+	"products" :  {
+  	"0": {
+			"name": "Ableton Live 9",
+			"picon": "content/images/icons/live_icon.png",
+			"ptitle": "Ableton Live 9 and CNTRL:R",
+			"pid": "abletonlive9",
+			"ptext": "The live and studio stalwart Ableton Live 9 is an excellent companion to the innovative layout of the CNTRL:R. Our comprehensive control script lets you launch clips, control tracks, and the companion Max for Live Devices are integrated for incredible control over your music and performances.",
+			"ititle": "Ableton Live+ CNTRLR remote script installer:",
+			"ilinkmac": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.dmg",
+			"ilinkwin": "http://lividinstruments.com/dl/LividLive9_RemoteScripts.exe",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "Describe the example",
+					"setname": "Livid_CNTRLR remote script files",
+					"manual": "http://wiki.lividinstruments.com/wiki/CNTRLR_Ableton_Live_Remote_Script",
+					"youtube": "c7WNpYu4eLs",
+					"leftthumb": "content/images/screencaps/cntrlr_live9.jpg",
+					"cap": "CNTRLR and Live",
+					"mapthumb": "content/images/maps/cntrlr_live9_map.jpg",
+					"mapcap": "example map - see wiki for more"
+				},
+				"1": {
+					"title": "Max for Live Stepprs",
+					"text": "These three unique Max for Live devices offer ideal integration between Max for Live and your Ableton Live set. With the ability to seamlessly jump from mixing clips to direct control over different step sequencers, no controller has ever been released with so much flexibility and function. Get the Max for Live devices.\n",
+					"setname": "Livid Stepp-r Sample Project",
+					"manual": "http://wiki.lividinstruments.com/wiki/CNTRLR_Modules",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/cntrlr_stepprs.jpg",
+					"cap": "Stepprs for CNTRLR and Max for Live",
+					"mapthumb": "content/images/maps/CNTRLR_stepprs.jpg",
+					"mapcap": "controls for stepprs"
+				}
+			}
+		},
+		"1": {
+			"name": "Ableton Live 8",
+			"picon": "content/images/icons/live8_icon.png",
+			"ptitle": "Ableton Live 8 and CNTRL:R",
+			"pid": "abletonlive8",
+			"ptext": "For people still using Live 8, there are Control Surface Scripts for the CNTRL:R. These offer seamless integration with Max For Live devices, as well as mixing, device control, and clip launching. ",
+			"ititle": "Ableton Live+ CNTRLR remote script installer:",
+			"ilinkmac": "http://lividinstruments.com/dl/CNTRL-R_Remotescript_Installer.dmg",
+			"ilinkwin": "http://lividinstruments.com/dl/Livid_CNTRLR_Live_Remote_Script_Installer.exe",
+			"examples": {
+				"0": {
+					"title": "Remote Script",
+					"text": "The Control Surface Script for Live 8 provides track, transport, and clip control when you first load up Live. Press one of the top encoder buttons to access a custom Steppr module or hand off the grid and encoders to User Mapping modes. The CNTRLR offers complete control in Live 8.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/CNTRLR_Ableton_Live_Remote_Script",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/cntrlr_live8.jpg",
+					"cap": "CNTRLR and Live 8",
+					"mapthumb": "content/images/maps/cntrlr_live9_map.jpg",
+					"mapcap": "example map - see wiki for more"
+				},
+				"1": {
+					"title": "Max for Live Stepprs",
+					"text": "These three unique Max for Live devices offer ideal integration between Max for Live and your Ableton Live set. With the ability to seamlessly jump from mixing clips to direct control over different step sequencers, no controller has ever been released with so much flexibility and function. <a href='http://lividinstruments.com/dl/LividStepp-rSampleProject.zip'>Get the Max for Live devices here.</a>",
+					"setname": "Livid Stepp-r Sample Project",
+					"manual": "http://wiki.lividinstruments.com/wiki/CNTRLR_Modules",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/CNTRLR_stepprs.jpg",
+					"cap": "Stepprs for CNTRLR and Max for Live",
+					"mapthumb": "content/images/maps/CNTRLR_stepprs.jpg",
+					"mapcap": "controls for stepprs"
+				}
+			}
+		},
+		"2": {
+			"name": "Bitwig Studio",
+			"picon": "content/images/icons/bitwig_icon.png",
+			"ptitle": "Bitwig Studio and CNTRL:R",
+			"pid": "bitwigstudio",
+			"ptext": "Bitwig Studio's flexible, efficient workflow offers incredible possibilities for the studio as well as live performance. CNTRL:R's integration is poised to take advantage of both situations, with natively supported sequencing into clips, effect controls, clip launching, and more. The CNTRL:R is natively integrated with Bitwig studio, however, if you need to update the scripts, we provide a link below.",
+			"ititle": "Bitwig Studio + CNTRL:R github link:",
+			"ilinkmac": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Bitwig/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "Control Surface Script",
+					"text": "With the CNTRL:R Control Surface Script activated, you'll be able to mix and control tracks, launch clips, and control device parameters (or macros). Change the mode, and you'll have complete step sequencing capability for drums and synths. With the sequence mode \"flipped\" you'll have an innovative new approach to step sequencing that makes synth sequences incredibly easy.  Take a look at our wiki documentation for complete details and videos.",
+					"setname": "Control Surface Script",
+					"manual": "http://wiki.lividinstruments.com/wiki/CNTRLR_Bitwig_Control_Script",
+					"youtube": "H4IYqX_VBYU",
+					"leftthumb": "content/images/screencaps/cntrlr_bitwig.jpg",
+					"cap": "Controlling Bitwig with CNTRL:R",
+					"mapthumb": "content/images/maps/cntrlr_bitwig_map.jpg",
+					"mapcap": "example map - see wiki for more details."
+				}
+			}
+		},
+		"3": {
+			"name": "Cycling '74 Max",
+			"picon": "content/images/icons/max_icon.png",
+			"ptitle": "Max and CNTRL:R",
+			"pid": "c74max",
+			"ptext": "The CNTRL:R already has some of the most advanced Max for Live integration, but there's also some really great patches for Max 6 that show how to build a complete sequencer inside of Max 6. Excellent for tearing apart for your own creations, or for simple modifications that suit your own work. The link below is for the entire Max+Livid archive - that way you know you have the latest and all supporting files.",
+			"ititle": "Cycling 74 Max and CNTRLR github link:",
+			"ilinkmac": "https://github.com/LividInstruments/Max/archive/master.zip",
+			"ilinkwin": "https://github.com/LividInstruments/Max/archive/master.zip",
+			"examples": {
+				"0": {
+					"title": "CNTRL:R Max Tutorial",
+					"text": "We built a five part tutorial about integrating Max and the CNTRL:R - from getting the control data into Max, getting UI data from Max to the CNTRL:R, and, finally, building a simple sequencer ready for performance in Max. Well-commented code and tutorial videos will get even the novice up and running with the CNTRL:R and Max 6. These patches are all in the GitHub archive linked above, in the CNTRL-R folder. Easily adapted for Max for Live! Be sure to add the Abstractions folder to your Max search path. The first video in the series is below, but visit the Details link for all five parts.",
+					"setname": "CNTRL-R Max Tutorial",
+					"manual": "http://blog.lividinstruments.com/2013/09/20/put-the-whole-world-in-your-hands-a-collection-of-tutorials-for-cycling-74s-max-6-and-livid-cntrlr/",
+					"youtube": "6Vsj3vOQHxI",
+					"leftthumb": "content/images/screencaps/cntrlrmax_tutorial.png",
+					"cap": "CNTRL:R and Max",
+					"mapthumb": "",
+					"mapcap": ""
+				},
+				"1": {
+					"title": "RDM by Stretta",
+					"text": "This amazing sequencer app by famed patcher Stretta makes for some interesting pattern generation and sequence control with the CNTRL:R in Max. Download it here",
+					"setname": "RDM",
+					"manual": "http://blog.lividinstruments.com/2013/09/24/rdm-devastatingly-cool-sequencer-in-max-for-cntrlr/",
+					"youtube": "CzAUaCx1cUQ",
+					"leftthumb": "content/images/screencaps/cntrlrmax_RDM.png",
+					"cap": "RDM for Max and CNTRL:R",
+					"mapthumb": "",
+					"mapcap": ""
+				} 
+			}
+		},
+		"4": {
+			"name": "Native Instruments Traktor",
+			"picon": "content/images/icons/traktor_icon.png",
+			"ptitle": "NI Traktor and CNTRL:R",
+			"pid": "nitraktor",
+			"ptext": "With it's huge array of button, knobs, and sliders, the CNTRL:R is ready-made for mixing effects, EQs, and cuing up tracks and loops in the standard DJ kit, Traktor. ",
+			"ititle": "",
+			"ilinkmac": "",
+			"ilinkwin": "",
+			"examples": {
+				"0": {
+					"title": "Traktor Total Control",
+					"text": "Download this .tsi file to setup Traktor to control four decks, or two standard decks and two remix decks. Encoders and pots are all mapped to various effects and mixer functions to give you complete control over your mix in Traktor. This comes with a Livid Editor Preset file (.json) that you can load with our online editor to change the settings as needed.",
+					"setname": "CNTRL-R Total Control.tsi",
+					"manual": "http://wiki.lividinstruments.com/wiki/CNTRLR_Traktor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/cntrlr_traktor.jpg",
+					"cap": "Total Control of Traktor",
+					"mapthumb": "content/images/maps/cntrlr_traktor_tc.jpg",
+					"mapcap": "map"
+				},
+				"1": {
+					"title": "Ultimate Tool",
+					"text": "Traktor has never seen such a complete mapping! Superuser Stewe has created this map that offers a huge variety of mappings for the CNTRL:R and Traktor. ",
+					"setname": "Ultimate Tool",
+					"manual": "https://maps.djtechtools.com/mappings/1260",
+					"youtube": "",
+					"leftthumb": "content/images/maps/cntrlr_traktor_ultimatetool.JPG",
+					"cap": "CNTRL:R Ultimate",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		},
+		"5": {
+			"name": "MIDI Settings Editor",
+			"picon": "content/images/icons/editor_icon.png",
+			"ptitle": "Livid Editor",
+			"pid": "editor",
+			"ptext": "The MIDI output and input settings for the CNTRL:R can customized using the Livid Editor. Buttons, LEDs, sliders, knobs, and the single encoder can be customized, and the output channels for all banks can be changed. The editor works online and requires the Jazz MIDI plug-in. The source can be downloaded, and the Editor can be run locally (without an internet connection) in your browser.",
+			"ititle": "Livid Online Editor",
+			"ilinkmac": "http://www.lividserver.com/editor",
+			"ilinkwin": "",
+			"linktextalt": " Link",
+			"examples": {
+				"0": {
+					"title": "Customizing your Settings.",
+					"text": "Use the online editor to create different settings for the controls, change colors, save settings to files for future use and backup, change global settings for the CNTRL:R, monitor MIDI input to see what messages are coming from the device, and even send sysex messages for advanced configurations. Follow the details link for complete information.",
+					"setname": "",
+					"manual": "http://wiki.lividinstruments.com/wiki/Online_Editor",
+					"youtube": "",
+					"leftthumb": "content/images/screencaps/editor_cntrlr.png",
+					"cap": "CNTRL:R Editor",
+					"mapthumb": "",
+					"mapcap": ""
+				}
+			}
+		}
+	}
+}
