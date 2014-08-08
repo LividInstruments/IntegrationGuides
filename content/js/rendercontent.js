@@ -1,7 +1,7 @@
 
   var products = {};
   var firmware = {};
-  //PNAME is declared in host HTML file.
+  // STEP 0: PNAME is declared in the host "_tmpl.html" file.
   //convert PNAME to propername (needed in firmware, possibly other times).
   var propername = {
     'Alias8' : 'Alias 8',
@@ -16,7 +16,8 @@
     'Base2' : 'Base v2',
     'Code' : 'Code'
   }
-  //read in JSON file of all the products and examples, then get the counts needed from that.
+  
+  //STEP 1: read in JSON file of all the products and examples, then get the counts needed from that.
   $.getJSON('product_dbase_'+PNAME+'.json', function(productdatabase) {
 		products = productdatabase.products;
 	});
@@ -24,8 +25,9 @@
   var exampletemp = "";
   var producttemp = "";
   var firmwaretemp = "";
-  //cascade the 'get' calls, and finally the render() call, in case there is some async weirdness:
-  //console.log("BEGIN");
+  //
+  
+  //STEP 2: Get all the template files and the firmware json. Cascade the 'get' calls, and finally the render() call, in case there is some async weirdness:
   $.get('_productexample.tmp.htm', function(template) {
     exampletemp = template;
     getpt();
@@ -47,6 +49,7 @@
       getfirmware();
     });
   }
+  
   //read in JSON of current firmware
   function getfirmware(){
     $.getJSON('firmware.json', function(template) {
@@ -58,6 +61,7 @@
     });
   }
   
+  //STEP 3: Based on what is in the "product database" JSON, render out the appropriate DOM elements for the products and the product examples
   function render(){
     //console.log("RENDER");
     //setup all the DOM elements based on what is inside the products database:
@@ -106,6 +110,7 @@
     fill();
   }
   
+  //STEP 4: fill all these newly created elements with the data from products JSON
   function fill(){
     //top title banner 
     var topname = PNAME;
@@ -212,7 +217,7 @@
       }
     }
      
-    //add firmware if applicable.
+    //STEP 5: add firmware if applicable.
     var key = propername[PNAME];
     var thefirm = {};
     if(typeof firmware['Firmware Images'][key] != 'undefined'){
