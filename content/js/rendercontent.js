@@ -17,27 +17,38 @@
     'Code' : 'Code'
   }
   
-  //STEP 1: read in JSON file of all the products and examples, then get the counts needed from that.
-  $.getJSON('product_dbase_'+PNAME+'.json', function(productdatabase) {
-		products = productdatabase.products;
-	});
+    //STEP 1: read in JSON file of all the products and examples, then get the counts needed from that.
+    $.getJSON('product_dbase_'+PNAME+'.json', function(productdatabase) {
+      console.log("building "+PNAME);
+      products = productdatabase.products;
+      gettmp();
+    })
+    .success(function() {
+      gettmp();
+    });
+ 
  
   var exampletemp = "";
   var producttemp = "";
   var firmwaretemp = "";
-  //
+  
   
   //STEP 2: Get all the template files and the firmware json. Cascade the 'get' calls, and finally the render() call, in case there is some async weirdness:
-  $.get('_productexample.tmp.htm', function(template) {
-    exampletemp = template;
-    getpt();
-    //console.log("fetched example template");
-  });
-  
+  function gettmp(){
+    $.get('_productexample.tmp.htm', function(template) {
+      exampletemp = template;
+      console.log("fetched example template");
+    })
+    .success(function() {
+      getpt();
+    });
+  }
   function getpt(){
     $.get('_product.tmp.htm', function(template) {
       producttemp = template;      
-      //console.log("fetched product template");
+      console.log("fetched product template");
+    })
+    .success(function() {
       getcell();
     });
   }
@@ -45,7 +56,9 @@
   function getcell(){
     $.get('_gridcell.tmp.htm', function(template) {
       celltemp = template;      
-      //console.log("fetched cell template \n"+celltemp);
+      console.log("fetched cell template \n"+celltemp);
+    })
+    .success(function() {
       getfirmware();
     });
   }
@@ -57,13 +70,15 @@
     });
     $.get('_firmware.tmp.htm', function(template) {
       firmwaretemp = template;
+    })
+    .success(function() {
       render();
     });
   }
   
   //STEP 3: Based on what is in the "product database" JSON, render out the appropriate DOM elements for the products and the product examples
   function render(){
-    //console.log("RENDER");
+    console.log("++++ RENDER BEGIN ++++ ");
     //setup all the DOM elements based on what is inside the products database:
     var pcount = 0;
     for(p in products){
